@@ -1,0 +1,56 @@
+name: Validate & rebuild skills
+
+# Keeps every derived file in sync with skills/ automatically:
+# catalog.json, .claude-plugin/marketplace.json, AGENTS.md, the README skill table, and dist/*.zip.
+on:
+  push:
+    branches: [master]
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Validate SKILL.md and README.md files
+        run: python scripts/validate.py
+
+      - name: Warn when a SKILL.md changed but its README.md did not
+        if: github.event_name == 'push' && github.event.before != '0000000000000000000000000000000000000000'
+        run: |
+          changed=$(git diff --name-only "${{ github.event.before }}" "${{ github.sha }}")
+          for skill in $(echo "$changed" | grep '^skills/.*/SKILL.md$' || true); do
+            readme="$(dirname "$skill")/README.md"
+            if ! echo "$changed" | grep -qx "$readme"; then
+              echo "::warning file=$readme::$skill changed but $readme was not updated — check that the bilingual README still matches."
+            fi
+          done
+
+      - name: Check generated files are up to date (pull requests)
+        if: github.event_name == 'pull_request'
+        run: python scripts/build.py --check
+
+      - name: Rebuild and commit generated files (master)
+        if: github.event_name != 'pull_request'
+        run: |
+          python scripts/build.py
+          if [ -n "$(git status --porcelain)" ]; then
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add -A catalog.json .claude-plugin/marketplace.json AGENTS.md README.md dist
+            git commit -m "chore: regenerate catalog, AGENTS.md, README table and zips"
+            git push
+          else
+            echo "Generated files already up to date."
+          fi

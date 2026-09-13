@@ -5,174 +5,13 @@
   "count": 67,
   "skills": [
     {
-      "id": "01-military-officer-operations-briefing-writer",
-      "name": "01-military-officer-operations-briefing-writer",
-      "description": "ช่วยเขียนแบบฟอร์มบันทึกข้อความสำหรับการบรรยายสรุปงานประจำวัน (operations briefing memo) และแบบฟอร์มรายงานสถานะหน่วยกำลังพล/ยุทโธปกรณ์ ในเชิงธุรการและการจัดการองค์กรล้วนๆ (จำนวนกำลังพล ตารางเวร สถานะความพร้อมของอุปกรณ์) สำหรับนายทหารสัญญาบัตร ใช้เมื่อผู้ใช้พูดว่า \"เขียนบรรยายสรุปประจำวัน\", \"ทำรายงานสถานะหน่วย\", \"แบบฟอร์ม briefing นายทหาร\", \"military briefing memo\", \"unit status report\" หรือขอเอกสารบริหารจัดการหน่วยระดับนายทหารสัญญาบัตร",
-      "category": "armed-forces-occupations",
-      "category_label": "0 · ทหาร (Armed Forces Occupations)",
-      "path": "skills/armed-forces-occupations/01-military-officer-operations-briefing-writer/SKILL.md",
-      "zip": "dist/01-military-officer-operations-briefing-writer.zip"
-    },
-    {
-      "id": "02-nco-unit-training-schedule-writer",
-      "name": "02-nco-unit-training-schedule-writer",
-      "description": "ช่วยเขียนตารางฝึกอบรมประจำหน่วย (unit training schedule) และบันทึกการเข้าร่วมฝึก/ความพร้อมของกำลังพล สำหรับกิจกรรมฝึกอบรมทั่วไปที่ไม่เป็นข้อมูลลับ เหมาะสำหรับนายทหารชั้นประทวน ใช้เมื่อผู้ใช้พูดว่า \"ทำตารางฝึกอบรม\", \"บันทึกการเข้าร่วมฝึก\", \"unit training schedule\", \"attendance log ทหาร\", \"ตารางเวรฝึก\" หรือขอเอกสารบริหารจัดการฝึกอบรมระดับนายทหารชั้นประทวน",
-      "category": "armed-forces-occupations",
-      "category_label": "0 · ทหาร (Armed Forces Occupations)",
-      "path": "skills/armed-forces-occupations/02-nco-unit-training-schedule-writer/SKILL.md",
-      "zip": "dist/02-nco-unit-training-schedule-writer.zip"
-    },
-    {
-      "id": "03-enlisted-personnel-daily-duty-roster-writer",
-      "name": "03-enlisted-personnel-daily-duty-roster-writer",
-      "description": "ช่วยเขียนตารางเวรประจำวัน (daily duty roster) และตารางกิจวัตรประจำหน่วย/กองพัก สำหรับพลทหาร ในรูปแบบเอกสารธุรการล้วนๆ ใช้เมื่อผู้ใช้พูดว่า \"ทำตารางเวรพลทหาร\", \"ตารางกิจวัตรกองพัก\", \"daily duty roster\", \"ตารางเวรยาม\", \"จัดเวรประจำวัน\" หรือขอเอกสารบริหารจัดการเวร/กิจวัตรระดับพลทหาร",
-      "category": "armed-forces-occupations",
-      "category_label": "0 · ทหาร (Armed Forces Occupations)",
-      "path": "skills/armed-forces-occupations/03-enlisted-personnel-daily-duty-roster-writer/SKILL.md",
-      "zip": "dist/03-enlisted-personnel-daily-duty-roster-writer.zip"
-    },
-    {
-      "id": "41-office-correspondence-and-data-entry-assistant",
-      "name": "41-office-correspondence-and-data-entry-assistant",
-      "description": "ช่วยร่างหนังสือโต้ตอบในสำนักงาน (บันทึกข้อความ, จดหมายราชการ/ธุรกิจ, อีเมลนัดหมาย) และจัดระเบียบ/ตรวจสอบความถูกต้องของชุดข้อมูลก่อนคีย์เข้าระบบ ด้วยเช็คลิสต์ความสอดคล้องของข้อมูล ใช้ skill นี้เมื่อผู้ใช้พูดว่า \"ช่วยร่างบันทึกข้อความ\", \"เขียนจดหมายราชการ\", \"ร่างหนังสือเวียน\", \"ตรวจข้อมูลก่อนคีย์\", \"จัดระเบียบข้อมูลใน Excel\", \"data entry checklist\", \"draft a memo\", \"clean up this spreadsheet before entry\" หรือทำงานในลักษณะเสมียนสำนักงานทั่วไป เลขานุการ พนักงานคีย์ข้อมูล หรือพนักงานพิมพ์ดีด/ถอดเทป แม้ไม่ได้เอ่ยชื่อ skill ตรงๆ ก็ให้ trigger เสมอ",
-      "category": "clerical-support-workers",
-      "category_label": "4 · เสมียน / งานธุรการสนับสนุน (Clerical Support Workers)",
-      "path": "skills/clerical-support-workers/41-office-correspondence-and-data-entry-assistant/SKILL.md",
-      "zip": "dist/41-office-correspondence-and-data-entry-assistant.zip"
-    },
-    {
-      "id": "42-customer-service-call-script-and-response-writer",
-      "name": "42-customer-service-call-script-and-response-writer",
-      "description": "เขียนสคริปต์การรับสายลูกค้า เทมเพลตคำตอบสำหรับคำถามที่พบบ่อย (FAQ) และร่างคำตอบจัดการข้อร้องเรียน สำหรับงานบริการลูกค้าทุกช่องทาง ใช้ skill นี้เมื่อผู้ใช้พูดว่า \"เขียนสคริปต์คอลเซ็นเตอร์\", \"ทำ FAQ ตอบลูกค้า\", \"ร่างคำตอบข้อร้องเรียน\", \"customer service script\", \"call script\", \"complaint response template\" หรือทำงานลักษณะพนักงานเคาน์เตอร์ธนาคาร พนักงานต้อนรับ พนักงานคอลเซ็นเตอร์ พนักงานขายตั๋ว หรือเจ้าหน้าที่ข้อมูลนักท่องเที่ยว แม้ไม่ได้เอ่ยชื่อ skill ตรงๆ ก็ให้ trigger เสมอเมื่อ context คือการสื่อสารกับลูกค้าโดยตรง",
-      "category": "clerical-support-workers",
-      "category_label": "4 · เสมียน / งานธุรการสนับสนุน (Clerical Support Workers)",
-      "path": "skills/clerical-support-workers/42-customer-service-call-script-and-response-writer/SKILL.md",
-      "zip": "dist/42-customer-service-call-script-and-response-writer.zip"
-    },
-    {
-      "id": "43-inventory-and-accounting-clerk-report-builder",
-      "name": "43-inventory-and-accounting-clerk-report-builder",
-      "description": "จัดทำรายงานกระทบยอดสินค้าคงคลัง/สต๊อก และสรุปบันทึกบัญชี-เงินเดือนเบื้องต้นจากตัวเลขที่ผู้ใช้ให้มาเท่านั้น โดยไม่แต่งตัวเลขยอดบัญชีหรือภาษีขึ้นเอง ใช้ skill นี้เมื่อผู้ใช้พูดว่า \"ทำรายงานสต๊อก\", \"กระทบยอดคลังสินค้า\", \"สรุปบัญชีเบื้องต้น\", \"สรุปเงินเดือน\", \"inventory reconciliation\", \"stock report\", \"payroll summary\" หรือทำงานลักษณะเสมียนบัญชี พนักงานการเงิน พนักงานเงินเดือน พนักงานคลังสินค้า/สต๊อก หรือพนักงานสถิติ แม้ไม่ได้เอ่ยชื่อ skill ตรงๆ ก็ให้ trigger เสมอเมื่อ context คือการจัดระเบียบตัวเลขที่มีอยู่แล้วให้เป็นรายงาน",
-      "category": "clerical-support-workers",
-      "category_label": "4 · เสมียน / งานธุรการสนับสนุน (Clerical Support Workers)",
-      "path": "skills/clerical-support-workers/43-inventory-and-accounting-clerk-report-builder/SKILL.md",
-      "zip": "dist/43-inventory-and-accounting-clerk-report-builder.zip"
-    },
-    {
-      "id": "44-mailroom-and-records-management-assistant",
-      "name": "44-mailroom-and-records-management-assistant",
-      "description": "ออกแบบระบบจัดเก็บเอกสาร/แฟ้ม (filing system) และบันทึกการรับ-ส่งไปรษณีย์/พัสดุ (mail routing log) ให้ค้นหาง่ายและติดตามสถานะได้ ใช้ skill นี้เมื่อผู้ใช้พูดว่า \"ออกแบบระบบแฟ้มเอกสาร\", \"จัดระเบียบเอกสาร\", \"ทำสมุดรับ-ส่งไปรษณีย์\", \"records management\", \"filing system\", \"mail log\" หรือทำงานลักษณะพนักงานไปรษณีย์ เสมียนแฟ้มเอกสาร เสมียนงานบุคคล หรือเสมียนห้องสมุด แม้ไม่ได้เอ่ยชื่อ skill ตรงๆ ก็ให้ trigger เสมอเมื่อ context คือการจัดระเบียบเอกสารหรือติดตามการรับ-ส่งสิ่งของ/จดหมาย",
-      "category": "clerical-support-workers",
-      "category_label": "4 · เสมียน / งานธุรการสนับสนุน (Clerical Support Workers)",
-      "path": "skills/clerical-support-workers/44-mailroom-and-records-management-assistant/SKILL.md",
-      "zip": "dist/44-mailroom-and-records-management-assistant.zip"
-    },
-    {
-      "id": "71-construction-trade-job-quote-and-checklist-writer",
-      "name": "71-construction-trade-job-quote-and-checklist-writer",
-      "description": "ช่วยช่างก่อสร้างและงานที่เกี่ยวข้อง (ยกเว้นช่างไฟฟ้า) เขียนใบเสนอราคางาน (แยกรายการค่าวัสดุและค่าแรงเป็นบรรทัด) พร้อมเช็กลิสต์ความปลอดภัยหน้างานและความคืบหน้างานก่อสร้าง ใช้ skill นี้เมื่อผู้ใช้พูดว่า \"ทำใบเสนอราคางานก่อสร้าง\", \"คิดราคาค่าก่ออิฐ/ปูน/ไม้/มุงหลังคา\", \"ทำเช็กลิสต์หน้างาน\", \"job quote ช่างก่อสร้าง\", \"construction quotation\", \"เช็กความปลอดภัยไซต์งาน\" หรือกำลังเตรียมเสนอราคางานให้ช่างก่ออิฐ ช่างปูน ช่างไม้ ช่างมุงหลังคา ช่างประปา ช่างทาสี ช่างเชื่อมโครงเหล็กก่อสร้าง หรือช่างรื้อถอน แม้ไม่ได้ใช้คำว่า \"ใบเสนอราคา\" ตรงๆ ก็ให้ trigger เสมอเมื่อ context คืองานสัญญาก่อสร้างหรือหน้างานก่อสร้าง",
-      "category": "craft-related-trades-workers",
-      "category_label": "7 · ช่างฝีมือและผู้ปฏิบัติงานที่เกี่ยวข้อง (Craft and Related Trades Workers)",
-      "path": "skills/craft-related-trades-workers/71-construction-trade-job-quote-and-checklist-writer/SKILL.md",
-      "zip": "dist/71-construction-trade-job-quote-and-checklist-writer.zip"
-    },
-    {
-      "id": "72-machine-repair-service-report-writer",
-      "name": "72-machine-repair-service-report-writer",
-      "description": "ช่วยช่างโลหะ เครื่องจักร และงานที่เกี่ยวข้อง เขียนรายงานผลการซ่อมรถยนต์/เครื่องจักร (การวินิจฉัยอาการ อะไหล่ที่ใช้ ค่าแรง ผลตรวจก่อน-หลังซ่อม) พร้อมตารางแผนบำรุงรักษา ใช้ skill นี้เมื่อผู้ใช้พูดว่า \"เขียนใบรายงานซ่อมรถ\", \"ทำ service report เครื่องจักร\", \"สรุปอาการเสียและอะไหล่ที่เปลี่ยน\", \"vehicle repair report\", \"maintenance schedule เครื่องจักร\", \"ทำใบแจ้งซ่อม\" หรือกำลังบันทึกงานให้ช่างหล่อโลหะ ช่างเชื่อม ช่างตีเหล็ก ช่างกลึง ช่างทำแม่พิมพ์ ช่างซ่อมรถยนต์ ช่างซ่อมจักรยานยนต์ หรือช่างซ่อมอากาศยาน แม้ไม่ได้ใช้คำว่า \"รายงาน\" ตรงๆ ก็ให้ trigger เสมอเมื่อ context คือการบันทึกงานซ่อมหรือวางแผนบำรุงรักษาเครื่องจักร/ยานพาหนะ",
-      "category": "craft-related-trades-workers",
-      "category_label": "7 · ช่างฝีมือและผู้ปฏิบัติงานที่เกี่ยวข้อง (Craft and Related Trades Workers)",
-      "path": "skills/craft-related-trades-workers/72-machine-repair-service-report-writer/SKILL.md",
-      "zip": "dist/72-machine-repair-service-report-writer.zip"
-    },
-    {
-      "id": "73-handicraft-and-print-shop-order-spec-writer",
-      "name": "73-handicraft-and-print-shop-order-spec-writer",
-      "description": "ช่วยช่างหัตถกรรมและช่างพิมพ์เขียนใบสเปกงานสั่งทำ (วัสดุ ขนาด รายละเอียดลวดลาย/ดีไซน์ และกำหนดเวลา) สำหรับงานสั่งทำเฉพาะบุคคลหรืองานพิมพ์ ใช้ skill นี้เมื่อผู้ใช้พูดว่า \"ทำใบสเปกงานสั่งทำ\", \"เขียนรายละเอียดงานเครื่องประดับ/เครื่องปั้น/งานทอ\", \"custom order spec\", \"ใบงานพิมพ์\", \"production spec ช่างฝีมือ\", \"ทำใบสั่งงานแกะสลัก/เครื่องดนตรี\" หรือกำลังรับออเดอร์ให้ช่างทำเครื่องประดับ ช่างเครื่องปั้นดินเผา ช่างทอผ้า ช่างจักสาน ช่างแกะสลัก ช่างทำเครื่องดนตรี ช่างเรียงพิมพ์ หรือช่างเข้าเล่ม แม้ไม่ได้ใช้คำว่า \"สเปก\" ตรงๆ ก็ให้ trigger เสมอเมื่อ context คือการรับออเดอร์งานสั่งทำเฉพาะหรืองานพิมพ์",
-      "category": "craft-related-trades-workers",
-      "category_label": "7 · ช่างฝีมือและผู้ปฏิบัติงานที่เกี่ยวข้อง (Craft and Related Trades Workers)",
-      "path": "skills/craft-related-trades-workers/73-handicraft-and-print-shop-order-spec-writer/SKILL.md",
-      "zip": "dist/73-handicraft-and-print-shop-order-spec-writer.zip"
-    },
-    {
-      "id": "74-electrical-installation-job-checklist-writer",
-      "name": "74-electrical-installation-job-checklist-writer",
-      "description": "ช่วยช่างไฟฟ้าและอิเล็กทรอนิกส์เขียนเช็กลิสต์ความปลอดภัยก่อน-หลังติดตั้งงานไฟฟ้า และรายงานสรุปงานที่เสร็จสิ้น เอกสารนี้เป็นเพียงตัวช่วยจดบันทึกและจัดระเบียบงาน ไม่ใช่การรับรองมาตรฐานความปลอดภัยหรือทดแทนดุลยพินิจของช่างไฟฟ้าที่มีใบอนุญาต ใช้ skill นี้เมื่อผู้ใช้พูดว่า \"ทำเช็กลิสต์ความปลอดภัยงานไฟฟ้า\", \"ตรวจงานไฟฟ้าก่อนส่งมอบ\", \"electrical safety checklist\", \"รายงานงานเดินสายไฟ\", \"job completion report ช่างไฟฟ้า\" หรือกำลังบันทึกงานให้ช่างไฟฟ้าอาคาร ช่างติดตั้งสายไฟ ช่างซ่อมอุปกรณ์ไฟฟ้า ช่างอิเล็กทรอนิกส์ ช่างติดตั้งเคเบิล/ไฟเบอร์ หรือช่างติดตั้งระบบโทรคมนาคม แม้ไม่ได้ใช้คำว่า \"เช็กลิสต์\" ตรงๆ ก็ให้ trigger เสมอเมื่อ context คืองานติดตั้งหรือซ่อมระบบไฟฟ้า/อิเล็กทรอนิกส์",
-      "category": "craft-related-trades-workers",
-      "category_label": "7 · ช่างฝีมือและผู้ปฏิบัติงานที่เกี่ยวข้อง (Craft and Related Trades Workers)",
-      "path": "skills/craft-related-trades-workers/74-electrical-installation-job-checklist-writer/SKILL.md",
-      "zip": "dist/74-electrical-installation-job-checklist-writer.zip"
-    },
-    {
-      "id": "75-craft-production-batch-and-quality-log-writer",
-      "name": "75-craft-production-batch-and-quality-log-writer",
-      "description": "ช่วยช่างแปรรูปอาหาร ไม้ เครื่องนุ่งห่ม และช่างฝีมืออื่นๆ เขียนบันทึกการผลิตแบบล็อต (วัตถุดิบ/วัสดุ ปริมาณ จุดตรวจคุณภาพ จำนวนผลผลิต) พร้อมจุดตรวจความปลอดภัยด้านอาหารหรือคุณภาพงานตัดเย็บตามความเหมาะสม ใช้ skill นี้เมื่อผู้ใช้พูดว่า \"ทำบันทึกการผลิตล็อต\", \"production batch log\", \"จดบันทึกทำขนมปัง/แฮม/ชีส\", \"ตรวจคุณภาพงานตัดเย็บ\", \"บันทึกการฟอกหนัง/ทำรองเท้า\", \"log การเลื่อยไม้\" หรือกำลังบันทึกงานให้คนชำแหละเนื้อ คนทำขนมปัง ผู้ผลิตแฮม/ชีส ผู้ตัดเย็บเสื้อผ้า ช่างฟอกหนัง ช่างทำรองเท้า หรือช่างเลื่อยไม้ แม้ไม่ได้ใช้คำว่า \"บันทึกล็อต\" ตรงๆ ก็ให้ trigger เสมอเมื่อ context คือการบันทึกงานผลิตเป็นล็อตในโรงงานแปรรูปอาหารหรือเวิร์กช็อปงานฝีมือ",
-      "category": "craft-related-trades-workers",
-      "category_label": "7 · ช่างฝีมือและผู้ปฏิบัติงานที่เกี่ยวข้อง (Craft and Related Trades Workers)",
-      "path": "skills/craft-related-trades-workers/75-craft-production-batch-and-quality-log-writer/SKILL.md",
-      "zip": "dist/75-craft-production-batch-and-quality-log-writer.zip"
-    },
-    {
-      "id": "91-cleaning-service-schedule-and-checklist-writer",
-      "name": "91-cleaning-service-schedule-and-checklist-writer",
-      "description": "ช่วยเขียนตารางทำความสะอาดประจำวัน/ประจำสัปดาห์แบ่งตามโซนพื้นที่ พร้อมเช็คลิสต์ตรวจคุณภาพงานความสะอาดที่ใช้ภาษาง่ายๆ พิมพ์ติดบอร์ดหรือพกไปเช็คหน้างานได้ทันที ใช้ skill นี้เมื่อผู้ใช้พูดว่า \"ทำตารางทำความสะอาด\", \"เช็คลิสต์ความสะอาด\", \"cleaning schedule\", \"cleaning checklist\", \"จัดคิวแม่บ้าน\", \"ตารางเข้าเวรทำความสะอาด\" หรือเป็นแม่บ้านประจำบ้าน พนักงานทำความสะอาดสำนักงาน/โรงแรม พนักงานทำความสะอาดยานพาหนะ คนซักรีด หรือคนเช็ดกระจกอาคารที่ต้องการวางแผนงานทำความสะอาดให้เป็นระบบ แม้ไม่ได้ใช้คำว่า \"ตาราง\" ตรงๆ ก็ให้ trigger เมื่อ context คือการวางแผนหรือตรวจสอบงานทำความสะอาด",
-      "category": "elementary-occupations",
-      "category_label": "9 · ผู้ประกอบอาชีพงานพื้นฐาน (Elementary Occupations)",
-      "path": "skills/elementary-occupations/91-cleaning-service-schedule-and-checklist-writer/SKILL.md",
-      "zip": "dist/91-cleaning-service-schedule-and-checklist-writer.zip"
-    },
-    {
-      "id": "92-farm-labour-daily-task-assignment-writer",
-      "name": "92-farm-labour-daily-task-assignment-writer",
-      "description": "ช่วยเขียนใบมอบหมายงานประจำวันสำหรับทีมคนงานเกษตร ป่าไม้ หรือประมง ระบุว่าใครทำอะไร ที่ไหน คาดหวังผลงานเท่าไหร่ ใช้ภาษาง่ายอ่านแล้วลงมือทำได้ทันที ใช้ skill นี้เมื่อผู้ใช้พูดว่า \"มอบหมายงานคนงานฟาร์ม\", \"แบ่งงานลูกน้องเกษตร\", \"daily task farm\", \"แบ่งงานตัดอ้อย/เก็บผลไม้\", \"จัดคนลงเรือประมง\" หรือเป็นหัวหน้าทีมที่ดูแลคนงานรับจ้างเกษตร คนตัดอ้อย คนเก็บผลไม้ คนงานฟาร์ม คนงานเรือประมง หรือคนงานป่าไม้ที่ต้องการแบ่งงานประจำวันให้ทีม แม้ไม่ได้ใช้คำว่า \"มอบหมาย\" ตรงๆ ก็ให้ trigger เมื่อ context คือการจัดคนงานเกษตร/ป่าไม้/ประมงลงงานแต่ละวัน",
-      "category": "elementary-occupations",
-      "category_label": "9 · ผู้ประกอบอาชีพงานพื้นฐาน (Elementary Occupations)",
-      "path": "skills/elementary-occupations/92-farm-labour-daily-task-assignment-writer/SKILL.md",
-      "zip": "dist/92-farm-labour-daily-task-assignment-writer.zip"
-    },
-    {
-      "id": "93-labour-crew-daily-safety-briefing-writer",
-      "name": "93-labour-crew-daily-safety-briefing-writer",
-      "description": "ช่วยเขียนสคริปต์พูดสรุปความปลอดภัยสั้นๆ ก่อนเริ่มกะงาน สำหรับหัวหน้าทีมคนงานเหมืองแร่ ก่อสร้าง การผลิต และการขนส่ง ระบุอันตรายของวันนั้น อุปกรณ์ป้องกันที่ต้องใส่ และเบอร์ติดต่อฉุกเฉิน ใช้ skill นี้เมื่อผู้ใช้พูดว่า \"พูดเซฟตี้ทอล์คก่อนเข้ากะ\", \"safety briefing\", \"toolbox talk\", \"แจ้งความปลอดภัยหน้างานก่อสร้าง\" หรือเป็นหัวหน้าทีมกรรมกรก่อสร้าง คนงานเหมือง คนงานโรงงาน คนแบกหาม คนบรรจุหีบห่อ คนงานคลังสินค้า หรือคนเข็นของที่ต้องพูดเตือนความปลอดภัยให้ทีมฟังก่อนเริ่มงาน แม้ไม่ได้ใช้คำว่า \"safety\" ตรงๆ ก็ให้ trigger เมื่อ context คือการเตือนความปลอดภัยทีมงานก่อนเริ่มกะ",
-      "category": "elementary-occupations",
-      "category_label": "9 · ผู้ประกอบอาชีพงานพื้นฐาน (Elementary Occupations)",
-      "path": "skills/elementary-occupations/93-labour-crew-daily-safety-briefing-writer/SKILL.md",
-      "zip": "dist/93-labour-crew-daily-safety-briefing-writer.zip"
-    },
-    {
-      "id": "94-kitchen-prep-and-food-safety-checklist-writer",
-      "name": "94-kitchen-prep-and-food-safety-checklist-writer",
-      "description": "ช่วยเขียนเช็คลิสต์เตรียมอาหารในครัวและเช็คลิสต์สุขอนามัยพื้นฐาน (ล้างมือ เก็บของแยกประเภท ระวังปนเปื้อนข้าม) สำหรับผู้ช่วยครัวและพนักงานเตรียมอาหาร เป็นแนวทางทั่วไปเท่านั้น ไม่ใช่มาตรฐานรับรองทางการ ใช้ skill นี้เมื่อผู้ใช้พูดว่า \"เช็คลิสต์เตรียมอาหาร\", \"เช็คลิสต์สุขอนามัยครัว\", \"kitchen prep checklist\", \"food safety checklist ครัว\" หรือเป็นผู้ช่วยในครัว พนักงานล้างจาน หรือพนักงานเตรียมอาหารจานด่วนที่ต้องการจัดระบบงานเตรียมอาหารและความสะอาดในครัว แม้ไม่ได้ใช้คำว่า \"checklist\" ตรงๆ ก็ให้ trigger เมื่อ context คือการเตรียมอาหารและดูแลความสะอาดในครัว",
-      "category": "elementary-occupations",
-      "category_label": "9 · ผู้ประกอบอาชีพงานพื้นฐาน (Elementary Occupations)",
-      "path": "skills/elementary-occupations/94-kitchen-prep-and-food-safety-checklist-writer/SKILL.md",
-      "zip": "dist/94-kitchen-prep-and-food-safety-checklist-writer.zip"
-    },
-    {
-      "id": "95-street-vendor-daily-sales-log-writer",
-      "name": "95-street-vendor-daily-sales-log-writer",
-      "description": "ช่วยเขียนสมุดบันทึกยอดขายประจำวันแบบง่ายๆ อ่านง่าย เขียนตามได้ทันที บันทึกของที่ขายได้ เงินเข้า-เงินออก และเตือนของที่ต้องซื้อเพิ่ม เหมาะสำหรับคนขายของตามถนนที่ไม่ถนัดบัญชี ใช้ skill นี้เมื่อผู้ใช้พูดว่า \"จดบันทึกยอดขาย\", \"ทำสมุดรายรับรายจ่ายพ่อค้าแม่ค้า\", \"daily sales log\", \"จดเงินเข้าเงินออกรถเข็น\" หรือเป็นคนขายของริมถนน คนขายอาหารข้างทาง คนขัดรองเท้า คนล้างกระจกรถตามสี่แยก หรือคนวิ่งงานตามถนนที่ต้องการจดบันทึกรายรับ-รายจ่ายประจำวันง่ายๆ แม้ไม่ได้ใช้คำว่า \"log\" ตรงๆ ก็ให้ trigger เมื่อ context คือการจดบันทึกยอดขายหรือเงินประจำวันของผู้ค้ารายย่อย",
-      "category": "elementary-occupations",
-      "category_label": "9 · ผู้ประกอบอาชีพงานพื้นฐาน (Elementary Occupations)",
-      "path": "skills/elementary-occupations/95-street-vendor-daily-sales-log-writer/SKILL.md",
-      "zip": "dist/95-street-vendor-daily-sales-log-writer.zip"
-    },
-    {
-      "id": "96-waste-collection-route-and-log-writer",
-      "name": "96-waste-collection-route-and-log-writer",
-      "description": "ช่วยเขียนเช็คลิสต์เส้นทางเก็บขยะและสมุดบันทึกกิจกรรมประจำวันแบบง่ายๆ สำหรับงานเก็บขยะและงานพื้นฐานอื่นๆ ระบุจุดที่ต้องไป ลำดับก่อน-หลัง และสิ่งที่ต้องบันทึกแต่ละจุด ใช้ skill นี้เมื่อผู้ใช้พูดว่า \"ทำเส้นทางเก็บขยะ\", \"checklist เก็บขยะ\", \"waste collection route\", \"บันทึกงานเก็บขยะประจำวัน\", \"ตารางกวาดถนน\" หรือเป็นพนักงานเก็บขยะ คนคัดแยกขยะ/ซาเล้ง คนกวาดถนน พนักงานส่งเอกสารและส่งของ พนักงานอ่านมาตรวัด คนเฝ้าประตู หรือคนเติมสินค้าบนชั้นวางที่ต้องการวางแผนเส้นทางหรือบันทึกงานประจำวัน แม้ไม่ได้ใช้คำว่า \"route\" ตรงๆ ก็ให้ trigger เมื่อ context คือการวางแผนเส้นทางหรือบันทึกงานพื้นฐานประจำวันกลุ่มนี้",
-      "category": "elementary-occupations",
-      "category_label": "9 · ผู้ประกอบอาชีพงานพื้นฐาน (Elementary Occupations)",
-      "path": "skills/elementary-occupations/96-waste-collection-route-and-log-writer/SKILL.md",
-      "zip": "dist/96-waste-collection-route-and-log-writer.zip"
-    },
-    {
       "id": "11-executive-strategic-memo-writer",
       "name": "11-executive-strategic-memo-writer",
       "description": "ช่วยผู้บริหารระดับสูง ข้าราชการอาวุโส และผู้บัญญัติกฎหมาย (เช่น CEO, กรรมการผู้จัดการ, ส.ส./ส.ว., ปลัดกระทรวง, อธิบดี, นายกเทศมนตรี, ผู้นำองค์กรไม่แสวงหากำไร, ผู้นำสหภาพแรงงาน) ร่างบันทึกข้อความเชิงกลยุทธ์ มติที่ประชุมคณะกรรมการ แถลงการณ์นโยบาย และสรุปประเด็นเพื่อการตัดสินใจของผู้บริหารระดับสูง ให้กระชับ ตรงประเด็น และพร้อมใช้ตัดสินใจได้ทันที ใช้ skill นี้เมื่อผู้ใช้พูดว่า \"เขียน memo ให้บอร์ด\", \"ร่างมติที่ประชุม\", \"เขียนแถลงการณ์นโยบาย\", \"สรุปเสนอผู้บริหารตัดสินใจ\", \"strategic memo\", \"board resolution\", \"executive brief\", \"decision brief\", \"เขียนสารถึงพนักงานทั้งองค์กร\" หรือขอให้ช่วยร่างเอกสารที่ผู้บริหารระดับสูงจะใช้ประกาศนโยบายหรือขอมติจากคณะกรรมการ/สภา แม้ไม่ได้ใช้คำว่า \"memo\" ตรงๆ ก็ให้ trigger เมื่อ context คือการสื่อสารการตัดสินใจระดับองค์กรหรือระดับนโยบาย",
       "category": "managers",
       "category_label": "1 · ผู้จัดการ (Managers)",
       "path": "skills/managers/11-executive-strategic-memo-writer/SKILL.md",
+      "readme": "skills/managers/11-executive-strategic-memo-writer/README.md",
       "zip": "dist/11-executive-strategic-memo-writer.zip"
     },
     {
@@ -182,6 +21,7 @@
       "category": "managers",
       "category_label": "1 · ผู้จัดการ (Managers)",
       "path": "skills/managers/12-department-management-report-builder/SKILL.md",
+      "readme": "skills/managers/12-department-management-report-builder/README.md",
       "zip": "dist/12-department-management-report-builder.zip"
     },
     {
@@ -191,6 +31,7 @@
       "category": "managers",
       "category_label": "1 · ผู้จัดการ (Managers)",
       "path": "skills/managers/13-operations-manager-sop-and-kpi-builder/SKILL.md",
+      "readme": "skills/managers/13-operations-manager-sop-and-kpi-builder/README.md",
       "zip": "dist/13-operations-manager-sop-and-kpi-builder.zip"
     },
     {
@@ -200,6 +41,7 @@
       "category": "managers",
       "category_label": "1 · ผู้จัดการ (Managers)",
       "path": "skills/managers/14-hospitality-retail-shift-and-service-planner/SKILL.md",
+      "readme": "skills/managers/14-hospitality-retail-shift-and-service-planner/README.md",
       "zip": "dist/14-hospitality-retail-shift-and-service-planner.zip"
     },
     {
@@ -209,6 +51,7 @@
       "category": "managers",
       "category_label": "1 · ผู้จัดการ (Managers)",
       "path": "skills/managers/business-model-canvas-builder/SKILL.md",
+      "readme": "skills/managers/business-model-canvas-builder/README.md",
       "zip": "dist/business-model-canvas-builder.zip"
     },
     {
@@ -218,6 +61,7 @@
       "category": "managers",
       "category_label": "1 · ผู้จัดการ (Managers)",
       "path": "skills/managers/inventory-reorder-planner/SKILL.md",
+      "readme": "skills/managers/inventory-reorder-planner/README.md",
       "zip": "dist/inventory-reorder-planner.zip"
     },
     {
@@ -227,6 +71,7 @@
       "category": "managers",
       "category_label": "1 · ผู้จัดการ (Managers)",
       "path": "skills/managers/okr-goal-setter/SKILL.md",
+      "readme": "skills/managers/okr-goal-setter/README.md",
       "zip": "dist/okr-goal-setter.zip"
     },
     {
@@ -236,6 +81,7 @@
       "category": "managers",
       "category_label": "1 · ผู้จัดการ (Managers)",
       "path": "skills/managers/process-sop-writer/SKILL.md",
+      "readme": "skills/managers/process-sop-writer/README.md",
       "zip": "dist/process-sop-writer.zip"
     },
     {
@@ -245,6 +91,7 @@
       "category": "managers",
       "category_label": "1 · ผู้จัดการ (Managers)",
       "path": "skills/managers/swot-competitive-analysis/SKILL.md",
+      "readme": "skills/managers/swot-competitive-analysis/README.md",
       "zip": "dist/swot-competitive-analysis.zip"
     },
     {
@@ -254,34 +101,8 @@
       "category": "managers",
       "category_label": "1 · ผู้จัดการ (Managers)",
       "path": "skills/managers/vendor-comparison-matrix/SKILL.md",
+      "readme": "skills/managers/vendor-comparison-matrix/README.md",
       "zip": "dist/vendor-comparison-matrix.zip"
-    },
-    {
-      "id": "81-plant-operator-shift-log-and-maintenance-writer",
-      "name": "81-plant-operator-shift-log-and-maintenance-writer",
-      "description": "ช่วยเขียนบันทึกส่งเวร (shift handover log) และแบบตรวจเช็กบำรุงรักษาเชิงป้องกัน (preventive-maintenance checklist) สำหรับผู้ควบคุมเครื่องจักรโรงงานประจำที่ เช่น เครื่องจักรเหมืองแร่ เครื่องจักรแปรรูปโลหะ เครื่องจักรผลิตซีเมนต์/แก้ว เครื่องจักรเคมี เครื่องจักรผลิตกระดาษ เครื่องจักรสิ่งทอ เครื่องจักรแปรรูปอาหาร และพนักงานควบคุมหม้อไอน้ำ ใช้ skill นี้เมื่อผู้ใช้พูดว่า \"เขียนบันทึกส่งเวร\", \"shift handover\", \"ทำ maintenance checklist\", \"log การเดินเครื่อง\", \"รายงานสภาพเครื่องจักร\", \"บันทึกกะ\", \"preventive maintenance\", \"PM checklist\" หรือทำงานเป็นผู้ควบคุมเครื่องจักรโรงงานที่ต้องส่งต่อข้อมูลระหว่างกะ",
-      "category": "plant-machine-operators-assemblers",
-      "category_label": "8 · ผู้ควบคุมเครื่องจักรโรงงานและผู้ประกอบชิ้นงาน (Plant and Machine Operators, and Assemblers)",
-      "path": "skills/plant-machine-operators-assemblers/81-plant-operator-shift-log-and-maintenance-writer/SKILL.md",
-      "zip": "dist/81-plant-operator-shift-log-and-maintenance-writer.zip"
-    },
-    {
-      "id": "82-assembly-line-quality-checklist-writer",
-      "name": "82-assembly-line-quality-checklist-writer",
-      "description": "ช่วยเขียนแบบตรวจสอบคุณภาพประจำสายการประกอบ (assembly-line quality-check checklist) และรูปแบบบันทึกข้อบกพร่อง (defect-tracking log) สำหรับผู้ประกอบชิ้นส่วน เช่น พนักงานประกอบเครื่องจักรกล ประกอบอุปกรณ์ไฟฟ้า ประกอบอุปกรณ์อิเล็กทรอนิกส์ และประกอบชิ้นส่วนยานยนต์ ใช้ skill นี้เมื่อผู้ใช้พูดว่า \"ทำ quality checklist สายการประกอบ\", \"บันทึกของเสีย\", \"defect log\", \"ตรวจสอบคุณภาพงานประกอบ\", \"QC checklist ไลน์ผลิต\", \"รายงานชิ้นงานบกพร่อง\" หรือทำงานในสายการประกอบที่ต้องบันทึกผลตรวจสอบและติดตามข้อบกพร่อง",
-      "category": "plant-machine-operators-assemblers",
-      "category_label": "8 · ผู้ควบคุมเครื่องจักรโรงงานและผู้ประกอบชิ้นงาน (Plant and Machine Operators, and Assemblers)",
-      "path": "skills/plant-machine-operators-assemblers/82-assembly-line-quality-checklist-writer/SKILL.md",
-      "zip": "dist/82-assembly-line-quality-checklist-writer.zip"
-    },
-    {
-      "id": "83-driver-trip-log-and-safety-checklist-writer",
-      "name": "83-driver-trip-log-and-safety-checklist-writer",
-      "description": "ช่วยเขียนบันทึกการเดินทางประจำวัน (daily trip log), แบบตรวจเช็กความปลอดภัยรถก่อนออกเดินทาง (pre-trip safety checklist) และแบบฟอร์มรายงานอุบัติเหตุ/เหตุการณ์ (incident-reporting template) สำหรับพนักงานขับรถและผู้ควบคุมเครื่องจักรเคลื่อนที่ เช่น คนขับแท็กซี่ คนขับรถบรรทุก คนขับรถโดยสาร พนักงานขับรถไฟ ผู้ควบคุมรถขุด/รถยก คนขับจักรยานยนต์รับจ้าง และไรเดอร์ส่งของแพลตฟอร์ม ใช้ skill นี้เมื่อผู้ใช้พูดว่า \"ทำ trip log\", \"บันทึกการเดินรถ\", \"เช็กความปลอดภัยก่อนออกรถ\", \"pre-trip checklist\", \"รายงานอุบัติเหตุ\", \"incident report คนขับ\" หรือทำงานขับรถ/ควบคุมเครื่องจักรเคลื่อนที่ที่ต้องบันทึกการเดินทางและความปลอดภัยเป็นประจำ",
-      "category": "plant-machine-operators-assemblers",
-      "category_label": "8 · ผู้ควบคุมเครื่องจักรโรงงานและผู้ประกอบชิ้นงาน (Plant and Machine Operators, and Assemblers)",
-      "path": "skills/plant-machine-operators-assemblers/83-driver-trip-log-and-safety-checklist-writer/SKILL.md",
-      "zip": "dist/83-driver-trip-log-and-safety-checklist-writer.zip"
     },
     {
       "id": "21-engineering-technical-report-writer",
@@ -290,6 +111,7 @@
       "category": "professionals",
       "category_label": "2 · ผู้ประกอบวิชาชีพด้านต่างๆ (Professionals)",
       "path": "skills/professionals/21-engineering-technical-report-writer/SKILL.md",
+      "readme": "skills/professionals/21-engineering-technical-report-writer/README.md",
       "zip": "dist/21-engineering-technical-report-writer.zip"
     },
     {
@@ -299,6 +121,7 @@
       "category": "professionals",
       "category_label": "2 · ผู้ประกอบวิชาชีพด้านต่างๆ (Professionals)",
       "path": "skills/professionals/22-patient-education-material-writer/SKILL.md",
+      "readme": "skills/professionals/22-patient-education-material-writer/README.md",
       "zip": "dist/22-patient-education-material-writer.zip"
     },
     {
@@ -308,6 +131,7 @@
       "category": "professionals",
       "category_label": "2 · ผู้ประกอบวิชาชีพด้านต่างๆ (Professionals)",
       "path": "skills/professionals/23-lesson-and-curriculum-designer/SKILL.md",
+      "readme": "skills/professionals/23-lesson-and-curriculum-designer/README.md",
       "zip": "dist/23-lesson-and-curriculum-designer.zip"
     },
     {
@@ -317,6 +141,7 @@
       "category": "professionals",
       "category_label": "2 · ผู้ประกอบวิชาชีพด้านต่างๆ (Professionals)",
       "path": "skills/professionals/24-business-analysis-memo-writer/SKILL.md",
+      "readme": "skills/professionals/24-business-analysis-memo-writer/README.md",
       "zip": "dist/24-business-analysis-memo-writer.zip"
     },
     {
@@ -326,6 +151,7 @@
       "category": "professionals",
       "category_label": "2 · ผู้ประกอบวิชาชีพด้านต่างๆ (Professionals)",
       "path": "skills/professionals/25-technical-documentation-and-code-review-assistant/SKILL.md",
+      "readme": "skills/professionals/25-technical-documentation-and-code-review-assistant/README.md",
       "zip": "dist/25-technical-documentation-and-code-review-assistant.zip"
     },
     {
@@ -335,6 +161,7 @@
       "category": "professionals",
       "category_label": "2 · ผู้ประกอบวิชาชีพด้านต่างๆ (Professionals)",
       "path": "skills/professionals/26-legal-social-cultural-brief-writer/SKILL.md",
+      "readme": "skills/professionals/26-legal-social-cultural-brief-writer/README.md",
       "zip": "dist/26-legal-social-cultural-brief-writer.zip"
     },
     {
@@ -344,6 +171,7 @@
       "category": "professionals",
       "category_label": "2 · ผู้ประกอบวิชาชีพด้านต่างๆ (Professionals)",
       "path": "skills/professionals/api-doc-writer/SKILL.md",
+      "readme": "skills/professionals/api-doc-writer/README.md",
       "zip": "dist/api-doc-writer.zip"
     },
     {
@@ -353,6 +181,7 @@
       "category": "professionals",
       "category_label": "2 · ผู้ประกอบวิชาชีพด้านต่างๆ (Professionals)",
       "path": "skills/professionals/budget-variance-report/SKILL.md",
+      "readme": "skills/professionals/budget-variance-report/README.md",
       "zip": "dist/budget-variance-report.zip"
     },
     {
@@ -362,6 +191,7 @@
       "category": "professionals",
       "category_label": "2 · ผู้ประกอบวิชาชีพด้านต่างๆ (Professionals)",
       "path": "skills/professionals/code-review-checklist/SKILL.md",
+      "readme": "skills/professionals/code-review-checklist/README.md",
       "zip": "dist/code-review-checklist.zip"
     },
     {
@@ -371,6 +201,7 @@
       "category": "professionals",
       "category_label": "2 · ผู้ประกอบวิชาชีพด้านต่างๆ (Professionals)",
       "path": "skills/professionals/contract-clause-reviewer/SKILL.md",
+      "readme": "skills/professionals/contract-clause-reviewer/README.md",
       "zip": "dist/contract-clause-reviewer.zip"
     },
     {
@@ -380,6 +211,7 @@
       "category": "professionals",
       "category_label": "2 · ผู้ประกอบวิชาชีพด้านต่างๆ (Professionals)",
       "path": "skills/professionals/customer-persona-builder/SKILL.md",
+      "readme": "skills/professionals/customer-persona-builder/README.md",
       "zip": "dist/customer-persona-builder.zip"
     },
     {
@@ -389,6 +221,7 @@
       "category": "professionals",
       "category_label": "2 · ผู้ประกอบวิชาชีพด้านต่างๆ (Professionals)",
       "path": "skills/professionals/data-cleaning-playbook/SKILL.md",
+      "readme": "skills/professionals/data-cleaning-playbook/README.md",
       "zip": "dist/data-cleaning-playbook.zip"
     },
     {
@@ -398,6 +231,7 @@
       "category": "professionals",
       "category_label": "2 · ผู้ประกอบวิชาชีพด้านต่างๆ (Professionals)",
       "path": "skills/professionals/financial-ratio-analyzer/SKILL.md",
+      "readme": "skills/professionals/financial-ratio-analyzer/README.md",
       "zip": "dist/financial-ratio-analyzer.zip"
     },
     {
@@ -407,6 +241,7 @@
       "category": "professionals",
       "category_label": "2 · ผู้ประกอบวิชาชีพด้านต่างๆ (Professionals)",
       "path": "skills/professionals/interview-scorecard-builder/SKILL.md",
+      "readme": "skills/professionals/interview-scorecard-builder/README.md",
       "zip": "dist/interview-scorecard-builder.zip"
     },
     {
@@ -416,6 +251,7 @@
       "category": "professionals",
       "category_label": "2 · ผู้ประกอบวิชาชีพด้านต่างๆ (Professionals)",
       "path": "skills/professionals/invoice-expense-tracker/SKILL.md",
+      "readme": "skills/professionals/invoice-expense-tracker/README.md",
       "zip": "dist/invoice-expense-tracker.zip"
     },
     {
@@ -425,6 +261,7 @@
       "category": "professionals",
       "category_label": "2 · ผู้ประกอบวิชาชีพด้านต่างๆ (Professionals)",
       "path": "skills/professionals/job-description-writer/SKILL.md",
+      "readme": "skills/professionals/job-description-writer/README.md",
       "zip": "dist/job-description-writer.zip"
     },
     {
@@ -434,6 +271,7 @@
       "category": "professionals",
       "category_label": "2 · ผู้ประกอบวิชาชีพด้านต่างๆ (Professionals)",
       "path": "skills/professionals/lesson-plan-builder/SKILL.md",
+      "readme": "skills/professionals/lesson-plan-builder/README.md",
       "zip": "dist/lesson-plan-builder.zip"
     },
     {
@@ -443,6 +281,7 @@
       "category": "professionals",
       "category_label": "2 · ผู้ประกอบวิชาชีพด้านต่างๆ (Professionals)",
       "path": "skills/professionals/nda-drafting-assistant/SKILL.md",
+      "readme": "skills/professionals/nda-drafting-assistant/README.md",
       "zip": "dist/nda-drafting-assistant.zip"
     },
     {
@@ -452,6 +291,7 @@
       "category": "professionals",
       "category_label": "2 · ผู้ประกอบวิชาชีพด้านต่างๆ (Professionals)",
       "path": "skills/professionals/onboarding-plan-generator/SKILL.md",
+      "readme": "skills/professionals/onboarding-plan-generator/README.md",
       "zip": "dist/onboarding-plan-generator.zip"
     },
     {
@@ -461,6 +301,7 @@
       "category": "professionals",
       "category_label": "2 · ผู้ประกอบวิชาชีพด้านต่างๆ (Professionals)",
       "path": "skills/professionals/policy-compliance-checklist/SKILL.md",
+      "readme": "skills/professionals/policy-compliance-checklist/README.md",
       "zip": "dist/policy-compliance-checklist.zip"
     },
     {
@@ -470,6 +311,7 @@
       "category": "professionals",
       "category_label": "2 · ผู้ประกอบวิชาชีพด้านต่างๆ (Professionals)",
       "path": "skills/professionals/quiz-generator/SKILL.md",
+      "readme": "skills/professionals/quiz-generator/README.md",
       "zip": "dist/quiz-generator.zip"
     },
     {
@@ -479,6 +321,7 @@
       "category": "professionals",
       "category_label": "2 · ผู้ประกอบวิชาชีพด้านต่างๆ (Professionals)",
       "path": "skills/professionals/sales-proposal-writer/SKILL.md",
+      "readme": "skills/professionals/sales-proposal-writer/README.md",
       "zip": "dist/sales-proposal-writer.zip"
     },
     {
@@ -488,6 +331,7 @@
       "category": "professionals",
       "category_label": "2 · ผู้ประกอบวิชาชีพด้านต่างๆ (Professionals)",
       "path": "skills/professionals/social-content-planner/SKILL.md",
+      "readme": "skills/professionals/social-content-planner/README.md",
       "zip": "dist/social-content-planner.zip"
     },
     {
@@ -497,70 +341,8 @@
       "category": "professionals",
       "category_label": "2 · ผู้ประกอบวิชาชีพด้านต่างๆ (Professionals)",
       "path": "skills/professionals/training-needs-assessment/SKILL.md",
+      "readme": "skills/professionals/training-needs-assessment/README.md",
       "zip": "dist/training-needs-assessment.zip"
-    },
-    {
-      "id": "51-hospitality-personal-service-standard-writer",
-      "name": "51-hospitality-personal-service-standard-writer",
-      "description": "เขียนมาตรฐานการให้บริการ (service standard) และ checklist ขั้นตอนปฏิบัติงานสำหรับพนักงานบริการส่วนบุคคลและงานฮอสพิทาลิตี้ เช่น มาตรฐานการต้อนรับแขก ขั้นตอนบริการอาหาร-เครื่องดื่ม โปรโตคอลงานเสริมสวย/ตัดผม ให้พร้อมใช้ฝึกพนักงานใหม่และตรวจสอบคุณภาพงานประจำวัน ใช้ skill นี้เมื่อผู้ใช้พูดว่า \"เขียน SOP พนักงานเสิร์ฟ\", \"มาตรฐานต้อนรับแขกโรงแรม\", \"checklist งานทำผม/เสริมสวย\", \"ขั้นตอนบริการลูกค้าหน้าร้าน\", \"training standard พนักงานบริการ\", \"service standard hospitality\" หรือขอเอกสารมาตรฐานงานสำหรับพนักงานเสิร์ฟ บาร์เทนเดอร์ พ่อครัวแม่ครัว พนักงานต้อนรับ มัคคุเทศก์ ช่างทำผม ช่างเสริมสวย ผู้ดูแลสัตว์เลี้ยง หรือแม่บ้านโรงแรม แม้ไม่ได้ใช้คำว่า \"SOP\" ตรงๆ ก็ให้ trigger เสมอเมื่อ context คือการวางมาตรฐานงานบริการส่วนบุคคล",
-      "category": "service-sales-workers",
-      "category_label": "5 · พนักงานบริการและผู้จำหน่ายสินค้า (Service and Sales Workers)",
-      "path": "skills/service-sales-workers/51-hospitality-personal-service-standard-writer/SKILL.md",
-      "zip": "dist/51-hospitality-personal-service-standard-writer.zip"
-    },
-    {
-      "id": "52-retail-sales-script-and-upsell-planner",
-      "name": "52-retail-sales-script-and-upsell-planner",
-      "description": "เขียนสคริปต์ขาย ประโยคเปิดการขาย และคำถามกระตุ้นการขายเพิ่ม (upsell/cross-sell) สำหรับพนักงานขายหน้าร้าน แคชเชียร์ พ่อค้าแม่ค้า และเทเลเซลส์ พร้อมทำแบบฟอร์มบันทึกยอดขายประจำวันอย่างง่าย ใช้ skill นี้เมื่อผู้ใช้พูดว่า \"เขียนสคริปต์ขาย\", \"วิธีเสนอขายเพิ่ม\", \"upsell cross-sell\", \"สคริปต์เทเลเซลส์\", \"สอนพนักงานขายพูด\", \"sales script retail\" หรือขอความช่วยเหลือเรื่องการขายให้พนักงานขายหน้าร้าน แคชเชียร์ พนักงานปั๊มน้ำมัน พนักงานขายตรง หรือพ่อค้าแม่ค้าตลาด/แผงลอย แม้ไม่ได้ใช้คำว่า \"script\" ตรงๆ ก็ให้ trigger เสมอเมื่อ context คือการช่วยพนักงานขายปิดการขายหรือขายเพิ่มให้ลูกค้า",
-      "category": "service-sales-workers",
-      "category_label": "5 · พนักงานบริการและผู้จำหน่ายสินค้า (Service and Sales Workers)",
-      "path": "skills/service-sales-workers/52-retail-sales-script-and-upsell-planner/SKILL.md",
-      "zip": "dist/52-retail-sales-script-and-upsell-planner.zip"
-    },
-    {
-      "id": "53-caregiving-daily-care-plan-writer",
-      "name": "53-caregiving-daily-care-plan-writer",
-      "description": "เขียนแผนกิจวัตรการดูแลประจำวัน (daily care routine) และบันทึกส่งต่อเวร (handover note) สำหรับผู้ให้บริการดูแลส่วนบุคคล เช่น พี่เลี้ยงเด็ก ผู้ช่วยครูปฐมวัย ผู้ช่วยพยาบาล และผู้ดูแลผู้สูงอายุ/ผู้ป่วยที่บ้าน โดยเป็นเอกสารสนับสนุนการจัดตารางดูแลเท่านั้น ไม่ใช่แผนการรักษาทางการแพทย์ ใช้ skill นี้เมื่อผู้ใช้พูดว่า \"เขียนตารางดูแลผู้สูงอายุ\", \"แผนดูแลเด็กประจำวัน\", \"บันทึกส่งเวรผู้ป่วย\", \"care plan ผู้ดูแล\", \"handover note พี่เลี้ยง\" หรือขอเอกสารช่วยจัดกิจวัตรดูแลสำหรับพี่เลี้ยงเด็ก ผู้ช่วยครูปฐมวัย ผู้ช่วยพยาบาล ผู้ดูแลผู้สูงอายุ หรือผู้ดูแลผู้ป่วยที่บ้าน แม้ไม่ได้ใช้คำว่า \"care plan\" ตรงๆ ก็ให้ trigger เสมอเมื่อ context คือการจัดตารางดูแลหรือส่งต่อข้อมูลการดูแลบุคคล — ห้ามใช้ skill นี้แทนคำสั่งแพทย์หรือแผนการรักษา",
-      "category": "service-sales-workers",
-      "category_label": "5 · พนักงานบริการและผู้จำหน่ายสินค้า (Service and Sales Workers)",
-      "path": "skills/service-sales-workers/53-caregiving-daily-care-plan-writer/SKILL.md",
-      "zip": "dist/53-caregiving-daily-care-plan-writer.zip"
-    },
-    {
-      "id": "54-security-incident-report-writer",
-      "name": "54-security-incident-report-writer",
-      "description": "เขียนรายงานเหตุการณ์ด้านความปลอดภัย (incident report) และบันทึกส่งเวรสำหรับผู้ให้บริการด้านการป้องกันภัย เช่น เจ้าหน้าที่รักษาความปลอดภัย พนักงานดับเพลิง และเจ้าหน้าที่ช่วยชีวิตทางน้ำ โดยเป็นเอกสารสนับสนุนงานบันทึกเหตุการณ์เท่านั้น ไม่ใช่ขั้นตอนปฏิบัติการฉุกเฉินหรือกระบวนการทางกฎหมาย ใช้ skill นี้เมื่อผู้ใช้พูดว่า \"เขียนรายงานเหตุการณ์ รปภ.\", \"บันทึกส่งเวรยาม\", \"incident report security\", \"รายงานเหตุฉุกเฉิน\", \"log เหตุการณ์รักษาความปลอดภัย\" หรือขอเอกสารบันทึกเหตุการณ์สำหรับเจ้าหน้าที่รักษาความปลอดภัย พนักงานดับเพลิง เจ้าหน้าที่ช่วยชีวิตทางน้ำ หรือผู้คุมเรือนจำ แม้ไม่ได้ใช้คำว่า \"incident report\" ตรงๆ ก็ให้ trigger เสมอเมื่อ context คือการบันทึกเหตุการณ์ด้านความปลอดภัย — ห้ามใช้ skill นี้แทนขั้นตอนปฏิบัติการฉุกเฉินจริงหรือคำแนะนำทางกฎหมาย",
-      "category": "service-sales-workers",
-      "category_label": "5 · พนักงานบริการและผู้จำหน่ายสินค้า (Service and Sales Workers)",
-      "path": "skills/service-sales-workers/54-security-incident-report-writer/SKILL.md",
-      "zip": "dist/54-security-incident-report-writer.zip"
-    },
-    {
-      "id": "61-crop-and-livestock-farm-plan-writer",
-      "name": "61-crop-and-livestock-farm-plan-writer",
-      "description": "ช่วยเขียนแผนการผลิตพืชและปศุสัตว์ตามฤดูกาล พร้อมตารางการใช้ปัจจัยการผลิต (เมล็ดพันธุ์/ปุ๋ย/อาหารสัตว์) แบบติดตามต้นทุน-ผลผลิตง่ายๆ และเช็คลิสต์เฝ้าระวังศัตรูพืช/โรคสัตว์เบื้องต้น ใช้ skill นี้เมื่อผู้ใช้พูดว่า \"วางแผนปลูก\", \"ทำแผนการเกษตร\", \"ตารางใส่ปุ๋ย\", \"แผนเลี้ยงสัตว์\", \"crop plan\", \"farm production plan\", \"คำนวณต้นทุนทำนา/ทำไร่\", \"เช็คโรคพืช/โรคสัตว์เบื้องต้น\" หรือเป็นชาวนา ชาวไร่ ชาวสวน ผู้เลี้ยงสัตว์ที่ต้องการวางแผนการผลิตเพื่อการค้า แม้ไม่ได้ใช้คำว่า \"แผน\" ตรงๆ ก็ให้ trigger เมื่อ context คือการวางแผนผลิตพืช/ปศุสัตว์เชิงพาณิชย์",
-      "category": "skilled-agricultural-forestry-fishery-workers",
-      "category_label": "6 · ผู้ปฏิบัติงานที่มีฝีมือด้านการเกษตร ป่าไม้ และประมง (Skilled Agricultural, Forestry and Fishery Workers)",
-      "path": "skills/skilled-agricultural-forestry-fishery-workers/61-crop-and-livestock-farm-plan-writer/SKILL.md",
-      "zip": "dist/61-crop-and-livestock-farm-plan-writer.zip"
-    },
-    {
-      "id": "62-fishery-and-forestry-operation-log-writer",
-      "name": "62-fishery-and-forestry-operation-log-writer",
-      "description": "ช่วยเขียนบันทึกการปฏิบัติงานประมง/ป่าไม้ประจำวัน (ปริมาณจับ/เก็บเกี่ยว, การบำรุงรักษาอุปกรณ์, สภาพอากาศ/น้ำขึ้นน้ำลง) และสรุปผลผลิตแบบง่ายที่ติดตามย้อนหลังได้ ใช้ skill นี้เมื่อผู้ใช้พูดว่า \"บันทึกการออกเรือ\", \"log การจับปลา\", \"สรุปผลผลิตประมง\", \"บันทึกทำไม้\", \"fishery log\", \"daily catch log\", \"บันทึกการเลี้ยงกุ้ง/ปลา\" หรือเป็นชาวประมง ผู้เพาะเลี้ยงสัตว์น้ำ คนทำป่าไม้ ที่ต้องการจดบันทึกการปฏิบัติงานประจำวันเพื่อการค้า แม้ไม่ได้ใช้คำว่า \"log\" ตรงๆ ก็ให้ trigger เมื่อ context คือการบันทึกและติดตามผลการทำประมง/ป่าไม้เชิงพาณิชย์",
-      "category": "skilled-agricultural-forestry-fishery-workers",
-      "category_label": "6 · ผู้ปฏิบัติงานที่มีฝีมือด้านการเกษตร ป่าไม้ และประมง (Skilled Agricultural, Forestry and Fishery Workers)",
-      "path": "skills/skilled-agricultural-forestry-fishery-workers/62-fishery-and-forestry-operation-log-writer/SKILL.md",
-      "zip": "dist/62-fishery-and-forestry-operation-log-writer.zip"
-    },
-    {
-      "id": "63-subsistence-farming-household-planning-assistant",
-      "name": "63-subsistence-farming-household-planning-assistant",
-      "description": "ช่วยทำแผนการผลิตอาหารและพึ่งพาตนเองของครัวเรือนแบบง่ายๆ ว่าแต่ละฤดูควรปลูก/จับ/เก็บอะไรบ้าง พร้อมประมาณการคร่าวๆ ว่ากินเองพอไหมและเหลือขายได้เท่าไหร่ ใช้ภาษาเรียบง่าย ไม่มีศัพท์เทคนิค ใช้ skill นี้เมื่อผู้ใช้พูดว่า \"วางแผนปลูกกินเอง\", \"ทำแผนครัวเรือนพึ่งตนเอง\", \"ปลูกอะไรดีให้พอกิน\", \"household food plan\", \"subsistence farming plan\", \"เก็บของป่าขาย\", \"แผนยังชีพ\" หรือเป็นเกษตรกรรายย่อยปลูกเพื่อบริโภคเอง ชาวประมงพื้นบ้าน หรือผู้เก็บของป่าที่ต้องการวางแผนการผลิตอาหารของครัวเรือน แม้ไม่ได้ใช้คำว่า \"แผน\" ตรงๆ ก็ให้ trigger เมื่อ context คือการวางแผนผลิตอาหารเพื่อยังชีพของครัวเรือน",
-      "category": "skilled-agricultural-forestry-fishery-workers",
-      "category_label": "6 · ผู้ปฏิบัติงานที่มีฝีมือด้านการเกษตร ป่าไม้ และประมง (Skilled Agricultural, Forestry and Fishery Workers)",
-      "path": "skills/skilled-agricultural-forestry-fishery-workers/63-subsistence-farming-household-planning-assistant/SKILL.md",
-      "zip": "dist/63-subsistence-farming-household-planning-assistant.zip"
     },
     {
       "id": "31-field-technician-inspection-report-writer",
@@ -569,6 +351,7 @@
       "category": "technicians-associate-professionals",
       "category_label": "3 · เจ้าหน้าที่เทคนิคและผู้ประกอบวิชาชีพที่เกี่ยวข้อง (Technicians and Associate Professionals)",
       "path": "skills/technicians-associate-professionals/31-field-technician-inspection-report-writer/SKILL.md",
+      "readme": "skills/technicians-associate-professionals/31-field-technician-inspection-report-writer/README.md",
       "zip": "dist/31-field-technician-inspection-report-writer.zip"
     },
     {
@@ -578,6 +361,7 @@
       "category": "technicians-associate-professionals",
       "category_label": "3 · เจ้าหน้าที่เทคนิคและผู้ประกอบวิชาชีพที่เกี่ยวข้อง (Technicians and Associate Professionals)",
       "path": "skills/technicians-associate-professionals/32-clinical-support-documentation-assistant/SKILL.md",
+      "readme": "skills/technicians-associate-professionals/32-clinical-support-documentation-assistant/README.md",
       "zip": "dist/32-clinical-support-documentation-assistant.zip"
     },
     {
@@ -587,6 +371,7 @@
       "category": "technicians-associate-professionals",
       "category_label": "3 · เจ้าหน้าที่เทคนิคและผู้ประกอบวิชาชีพที่เกี่ยวข้อง (Technicians and Associate Professionals)",
       "path": "skills/technicians-associate-professionals/33-insurance-and-brokerage-proposal-writer/SKILL.md",
+      "readme": "skills/technicians-associate-professionals/33-insurance-and-brokerage-proposal-writer/README.md",
       "zip": "dist/33-insurance-and-brokerage-proposal-writer.zip"
     },
     {
@@ -596,6 +381,7 @@
       "category": "technicians-associate-professionals",
       "category_label": "3 · เจ้าหน้าที่เทคนิคและผู้ประกอบวิชาชีพที่เกี่ยวข้อง (Technicians and Associate Professionals)",
       "path": "skills/technicians-associate-professionals/34-paralegal-and-social-work-case-note-writer/SKILL.md",
+      "readme": "skills/technicians-associate-professionals/34-paralegal-and-social-work-case-note-writer/README.md",
       "zip": "dist/34-paralegal-and-social-work-case-note-writer.zip"
     },
     {
@@ -605,7 +391,288 @@
       "category": "technicians-associate-professionals",
       "category_label": "3 · เจ้าหน้าที่เทคนิคและผู้ประกอบวิชาชีพที่เกี่ยวข้อง (Technicians and Associate Professionals)",
       "path": "skills/technicians-associate-professionals/35-it-support-ticket-and-troubleshooting-log-writer/SKILL.md",
+      "readme": "skills/technicians-associate-professionals/35-it-support-ticket-and-troubleshooting-log-writer/README.md",
       "zip": "dist/35-it-support-ticket-and-troubleshooting-log-writer.zip"
+    },
+    {
+      "id": "41-office-correspondence-and-data-entry-assistant",
+      "name": "41-office-correspondence-and-data-entry-assistant",
+      "description": "ช่วยร่างหนังสือโต้ตอบในสำนักงาน (บันทึกข้อความ, จดหมายราชการ/ธุรกิจ, อีเมลนัดหมาย) และจัดระเบียบ/ตรวจสอบความถูกต้องของชุดข้อมูลก่อนคีย์เข้าระบบ ด้วยเช็คลิสต์ความสอดคล้องของข้อมูล ใช้ skill นี้เมื่อผู้ใช้พูดว่า \"ช่วยร่างบันทึกข้อความ\", \"เขียนจดหมายราชการ\", \"ร่างหนังสือเวียน\", \"ตรวจข้อมูลก่อนคีย์\", \"จัดระเบียบข้อมูลใน Excel\", \"data entry checklist\", \"draft a memo\", \"clean up this spreadsheet before entry\" หรือทำงานในลักษณะเสมียนสำนักงานทั่วไป เลขานุการ พนักงานคีย์ข้อมูล หรือพนักงานพิมพ์ดีด/ถอดเทป แม้ไม่ได้เอ่ยชื่อ skill ตรงๆ ก็ให้ trigger เสมอ",
+      "category": "clerical-support-workers",
+      "category_label": "4 · เสมียน / งานธุรการสนับสนุน (Clerical Support Workers)",
+      "path": "skills/clerical-support-workers/41-office-correspondence-and-data-entry-assistant/SKILL.md",
+      "readme": "skills/clerical-support-workers/41-office-correspondence-and-data-entry-assistant/README.md",
+      "zip": "dist/41-office-correspondence-and-data-entry-assistant.zip"
+    },
+    {
+      "id": "42-customer-service-call-script-and-response-writer",
+      "name": "42-customer-service-call-script-and-response-writer",
+      "description": "เขียนสคริปต์การรับสายลูกค้า เทมเพลตคำตอบสำหรับคำถามที่พบบ่อย (FAQ) และร่างคำตอบจัดการข้อร้องเรียน สำหรับงานบริการลูกค้าทุกช่องทาง ใช้ skill นี้เมื่อผู้ใช้พูดว่า \"เขียนสคริปต์คอลเซ็นเตอร์\", \"ทำ FAQ ตอบลูกค้า\", \"ร่างคำตอบข้อร้องเรียน\", \"customer service script\", \"call script\", \"complaint response template\" หรือทำงานลักษณะพนักงานเคาน์เตอร์ธนาคาร พนักงานต้อนรับ พนักงานคอลเซ็นเตอร์ พนักงานขายตั๋ว หรือเจ้าหน้าที่ข้อมูลนักท่องเที่ยว แม้ไม่ได้เอ่ยชื่อ skill ตรงๆ ก็ให้ trigger เสมอเมื่อ context คือการสื่อสารกับลูกค้าโดยตรง",
+      "category": "clerical-support-workers",
+      "category_label": "4 · เสมียน / งานธุรการสนับสนุน (Clerical Support Workers)",
+      "path": "skills/clerical-support-workers/42-customer-service-call-script-and-response-writer/SKILL.md",
+      "readme": "skills/clerical-support-workers/42-customer-service-call-script-and-response-writer/README.md",
+      "zip": "dist/42-customer-service-call-script-and-response-writer.zip"
+    },
+    {
+      "id": "43-inventory-and-accounting-clerk-report-builder",
+      "name": "43-inventory-and-accounting-clerk-report-builder",
+      "description": "จัดทำรายงานกระทบยอดสินค้าคงคลัง/สต๊อก และสรุปบันทึกบัญชี-เงินเดือนเบื้องต้นจากตัวเลขที่ผู้ใช้ให้มาเท่านั้น โดยไม่แต่งตัวเลขยอดบัญชีหรือภาษีขึ้นเอง ใช้ skill นี้เมื่อผู้ใช้พูดว่า \"ทำรายงานสต๊อก\", \"กระทบยอดคลังสินค้า\", \"สรุปบัญชีเบื้องต้น\", \"สรุปเงินเดือน\", \"inventory reconciliation\", \"stock report\", \"payroll summary\" หรือทำงานลักษณะเสมียนบัญชี พนักงานการเงิน พนักงานเงินเดือน พนักงานคลังสินค้า/สต๊อก หรือพนักงานสถิติ แม้ไม่ได้เอ่ยชื่อ skill ตรงๆ ก็ให้ trigger เสมอเมื่อ context คือการจัดระเบียบตัวเลขที่มีอยู่แล้วให้เป็นรายงาน",
+      "category": "clerical-support-workers",
+      "category_label": "4 · เสมียน / งานธุรการสนับสนุน (Clerical Support Workers)",
+      "path": "skills/clerical-support-workers/43-inventory-and-accounting-clerk-report-builder/SKILL.md",
+      "readme": "skills/clerical-support-workers/43-inventory-and-accounting-clerk-report-builder/README.md",
+      "zip": "dist/43-inventory-and-accounting-clerk-report-builder.zip"
+    },
+    {
+      "id": "44-mailroom-and-records-management-assistant",
+      "name": "44-mailroom-and-records-management-assistant",
+      "description": "ออกแบบระบบจัดเก็บเอกสาร/แฟ้ม (filing system) และบันทึกการรับ-ส่งไปรษณีย์/พัสดุ (mail routing log) ให้ค้นหาง่ายและติดตามสถานะได้ ใช้ skill นี้เมื่อผู้ใช้พูดว่า \"ออกแบบระบบแฟ้มเอกสาร\", \"จัดระเบียบเอกสาร\", \"ทำสมุดรับ-ส่งไปรษณีย์\", \"records management\", \"filing system\", \"mail log\" หรือทำงานลักษณะพนักงานไปรษณีย์ เสมียนแฟ้มเอกสาร เสมียนงานบุคคล หรือเสมียนห้องสมุด แม้ไม่ได้เอ่ยชื่อ skill ตรงๆ ก็ให้ trigger เสมอเมื่อ context คือการจัดระเบียบเอกสารหรือติดตามการรับ-ส่งสิ่งของ/จดหมาย",
+      "category": "clerical-support-workers",
+      "category_label": "4 · เสมียน / งานธุรการสนับสนุน (Clerical Support Workers)",
+      "path": "skills/clerical-support-workers/44-mailroom-and-records-management-assistant/SKILL.md",
+      "readme": "skills/clerical-support-workers/44-mailroom-and-records-management-assistant/README.md",
+      "zip": "dist/44-mailroom-and-records-management-assistant.zip"
+    },
+    {
+      "id": "51-hospitality-personal-service-standard-writer",
+      "name": "51-hospitality-personal-service-standard-writer",
+      "description": "เขียนมาตรฐานการให้บริการ (service standard) และ checklist ขั้นตอนปฏิบัติงานสำหรับพนักงานบริการส่วนบุคคลและงานฮอสพิทาลิตี้ เช่น มาตรฐานการต้อนรับแขก ขั้นตอนบริการอาหาร-เครื่องดื่ม โปรโตคอลงานเสริมสวย/ตัดผม ให้พร้อมใช้ฝึกพนักงานใหม่และตรวจสอบคุณภาพงานประจำวัน ใช้ skill นี้เมื่อผู้ใช้พูดว่า \"เขียน SOP พนักงานเสิร์ฟ\", \"มาตรฐานต้อนรับแขกโรงแรม\", \"checklist งานทำผม/เสริมสวย\", \"ขั้นตอนบริการลูกค้าหน้าร้าน\", \"training standard พนักงานบริการ\", \"service standard hospitality\" หรือขอเอกสารมาตรฐานงานสำหรับพนักงานเสิร์ฟ บาร์เทนเดอร์ พ่อครัวแม่ครัว พนักงานต้อนรับ มัคคุเทศก์ ช่างทำผม ช่างเสริมสวย ผู้ดูแลสัตว์เลี้ยง หรือแม่บ้านโรงแรม แม้ไม่ได้ใช้คำว่า \"SOP\" ตรงๆ ก็ให้ trigger เสมอเมื่อ context คือการวางมาตรฐานงานบริการส่วนบุคคล",
+      "category": "service-sales-workers",
+      "category_label": "5 · พนักงานบริการและผู้จำหน่ายสินค้า (Service and Sales Workers)",
+      "path": "skills/service-sales-workers/51-hospitality-personal-service-standard-writer/SKILL.md",
+      "readme": "skills/service-sales-workers/51-hospitality-personal-service-standard-writer/README.md",
+      "zip": "dist/51-hospitality-personal-service-standard-writer.zip"
+    },
+    {
+      "id": "52-retail-sales-script-and-upsell-planner",
+      "name": "52-retail-sales-script-and-upsell-planner",
+      "description": "เขียนสคริปต์ขาย ประโยคเปิดการขาย และคำถามกระตุ้นการขายเพิ่ม (upsell/cross-sell) สำหรับพนักงานขายหน้าร้าน แคชเชียร์ พ่อค้าแม่ค้า และเทเลเซลส์ พร้อมทำแบบฟอร์มบันทึกยอดขายประจำวันอย่างง่าย ใช้ skill นี้เมื่อผู้ใช้พูดว่า \"เขียนสคริปต์ขาย\", \"วิธีเสนอขายเพิ่ม\", \"upsell cross-sell\", \"สคริปต์เทเลเซลส์\", \"สอนพนักงานขายพูด\", \"sales script retail\" หรือขอความช่วยเหลือเรื่องการขายให้พนักงานขายหน้าร้าน แคชเชียร์ พนักงานปั๊มน้ำมัน พนักงานขายตรง หรือพ่อค้าแม่ค้าตลาด/แผงลอย แม้ไม่ได้ใช้คำว่า \"script\" ตรงๆ ก็ให้ trigger เสมอเมื่อ context คือการช่วยพนักงานขายปิดการขายหรือขายเพิ่มให้ลูกค้า",
+      "category": "service-sales-workers",
+      "category_label": "5 · พนักงานบริการและผู้จำหน่ายสินค้า (Service and Sales Workers)",
+      "path": "skills/service-sales-workers/52-retail-sales-script-and-upsell-planner/SKILL.md",
+      "readme": "skills/service-sales-workers/52-retail-sales-script-and-upsell-planner/README.md",
+      "zip": "dist/52-retail-sales-script-and-upsell-planner.zip"
+    },
+    {
+      "id": "53-caregiving-daily-care-plan-writer",
+      "name": "53-caregiving-daily-care-plan-writer",
+      "description": "เขียนแผนกิจวัตรการดูแลประจำวัน (daily care routine) และบันทึกส่งต่อเวร (handover note) สำหรับผู้ให้บริการดูแลส่วนบุคคล เช่น พี่เลี้ยงเด็ก ผู้ช่วยครูปฐมวัย ผู้ช่วยพยาบาล และผู้ดูแลผู้สูงอายุ/ผู้ป่วยที่บ้าน โดยเป็นเอกสารสนับสนุนการจัดตารางดูแลเท่านั้น ไม่ใช่แผนการรักษาทางการแพทย์ ใช้ skill นี้เมื่อผู้ใช้พูดว่า \"เขียนตารางดูแลผู้สูงอายุ\", \"แผนดูแลเด็กประจำวัน\", \"บันทึกส่งเวรผู้ป่วย\", \"care plan ผู้ดูแล\", \"handover note พี่เลี้ยง\" หรือขอเอกสารช่วยจัดกิจวัตรดูแลสำหรับพี่เลี้ยงเด็ก ผู้ช่วยครูปฐมวัย ผู้ช่วยพยาบาล ผู้ดูแลผู้สูงอายุ หรือผู้ดูแลผู้ป่วยที่บ้าน แม้ไม่ได้ใช้คำว่า \"care plan\" ตรงๆ ก็ให้ trigger เสมอเมื่อ context คือการจัดตารางดูแลหรือส่งต่อข้อมูลการดูแลบุคคล — ห้ามใช้ skill นี้แทนคำสั่งแพทย์หรือแผนการรักษา",
+      "category": "service-sales-workers",
+      "category_label": "5 · พนักงานบริการและผู้จำหน่ายสินค้า (Service and Sales Workers)",
+      "path": "skills/service-sales-workers/53-caregiving-daily-care-plan-writer/SKILL.md",
+      "readme": "skills/service-sales-workers/53-caregiving-daily-care-plan-writer/README.md",
+      "zip": "dist/53-caregiving-daily-care-plan-writer.zip"
+    },
+    {
+      "id": "54-security-incident-report-writer",
+      "name": "54-security-incident-report-writer",
+      "description": "เขียนรายงานเหตุการณ์ด้านความปลอดภัย (incident report) และบันทึกส่งเวรสำหรับผู้ให้บริการด้านการป้องกันภัย เช่น เจ้าหน้าที่รักษาความปลอดภัย พนักงานดับเพลิง และเจ้าหน้าที่ช่วยชีวิตทางน้ำ โดยเป็นเอกสารสนับสนุนงานบันทึกเหตุการณ์เท่านั้น ไม่ใช่ขั้นตอนปฏิบัติการฉุกเฉินหรือกระบวนการทางกฎหมาย ใช้ skill นี้เมื่อผู้ใช้พูดว่า \"เขียนรายงานเหตุการณ์ รปภ.\", \"บันทึกส่งเวรยาม\", \"incident report security\", \"รายงานเหตุฉุกเฉิน\", \"log เหตุการณ์รักษาความปลอดภัย\" หรือขอเอกสารบันทึกเหตุการณ์สำหรับเจ้าหน้าที่รักษาความปลอดภัย พนักงานดับเพลิง เจ้าหน้าที่ช่วยชีวิตทางน้ำ หรือผู้คุมเรือนจำ แม้ไม่ได้ใช้คำว่า \"incident report\" ตรงๆ ก็ให้ trigger เสมอเมื่อ context คือการบันทึกเหตุการณ์ด้านความปลอดภัย — ห้ามใช้ skill นี้แทนขั้นตอนปฏิบัติการฉุกเฉินจริงหรือคำแนะนำทางกฎหมาย",
+      "category": "service-sales-workers",
+      "category_label": "5 · พนักงานบริการและผู้จำหน่ายสินค้า (Service and Sales Workers)",
+      "path": "skills/service-sales-workers/54-security-incident-report-writer/SKILL.md",
+      "readme": "skills/service-sales-workers/54-security-incident-report-writer/README.md",
+      "zip": "dist/54-security-incident-report-writer.zip"
+    },
+    {
+      "id": "61-crop-and-livestock-farm-plan-writer",
+      "name": "61-crop-and-livestock-farm-plan-writer",
+      "description": "ช่วยเขียนแผนการผลิตพืชและปศุสัตว์ตามฤดูกาล พร้อมตารางการใช้ปัจจัยการผลิต (เมล็ดพันธุ์/ปุ๋ย/อาหารสัตว์) แบบติดตามต้นทุน-ผลผลิตง่ายๆ และเช็คลิสต์เฝ้าระวังศัตรูพืช/โรคสัตว์เบื้องต้น ใช้ skill นี้เมื่อผู้ใช้พูดว่า \"วางแผนปลูก\", \"ทำแผนการเกษตร\", \"ตารางใส่ปุ๋ย\", \"แผนเลี้ยงสัตว์\", \"crop plan\", \"farm production plan\", \"คำนวณต้นทุนทำนา/ทำไร่\", \"เช็คโรคพืช/โรคสัตว์เบื้องต้น\" หรือเป็นชาวนา ชาวไร่ ชาวสวน ผู้เลี้ยงสัตว์ที่ต้องการวางแผนการผลิตเพื่อการค้า แม้ไม่ได้ใช้คำว่า \"แผน\" ตรงๆ ก็ให้ trigger เมื่อ context คือการวางแผนผลิตพืช/ปศุสัตว์เชิงพาณิชย์",
+      "category": "skilled-agricultural-forestry-fishery-workers",
+      "category_label": "6 · ผู้ปฏิบัติงานที่มีฝีมือด้านการเกษตร ป่าไม้ และประมง (Skilled Agricultural, Forestry and Fishery Workers)",
+      "path": "skills/skilled-agricultural-forestry-fishery-workers/61-crop-and-livestock-farm-plan-writer/SKILL.md",
+      "readme": "skills/skilled-agricultural-forestry-fishery-workers/61-crop-and-livestock-farm-plan-writer/README.md",
+      "zip": "dist/61-crop-and-livestock-farm-plan-writer.zip"
+    },
+    {
+      "id": "62-fishery-and-forestry-operation-log-writer",
+      "name": "62-fishery-and-forestry-operation-log-writer",
+      "description": "ช่วยเขียนบันทึกการปฏิบัติงานประมง/ป่าไม้ประจำวัน (ปริมาณจับ/เก็บเกี่ยว, การบำรุงรักษาอุปกรณ์, สภาพอากาศ/น้ำขึ้นน้ำลง) และสรุปผลผลิตแบบง่ายที่ติดตามย้อนหลังได้ ใช้ skill นี้เมื่อผู้ใช้พูดว่า \"บันทึกการออกเรือ\", \"log การจับปลา\", \"สรุปผลผลิตประมง\", \"บันทึกทำไม้\", \"fishery log\", \"daily catch log\", \"บันทึกการเลี้ยงกุ้ง/ปลา\" หรือเป็นชาวประมง ผู้เพาะเลี้ยงสัตว์น้ำ คนทำป่าไม้ ที่ต้องการจดบันทึกการปฏิบัติงานประจำวันเพื่อการค้า แม้ไม่ได้ใช้คำว่า \"log\" ตรงๆ ก็ให้ trigger เมื่อ context คือการบันทึกและติดตามผลการทำประมง/ป่าไม้เชิงพาณิชย์",
+      "category": "skilled-agricultural-forestry-fishery-workers",
+      "category_label": "6 · ผู้ปฏิบัติงานที่มีฝีมือด้านการเกษตร ป่าไม้ และประมง (Skilled Agricultural, Forestry and Fishery Workers)",
+      "path": "skills/skilled-agricultural-forestry-fishery-workers/62-fishery-and-forestry-operation-log-writer/SKILL.md",
+      "readme": "skills/skilled-agricultural-forestry-fishery-workers/62-fishery-and-forestry-operation-log-writer/README.md",
+      "zip": "dist/62-fishery-and-forestry-operation-log-writer.zip"
+    },
+    {
+      "id": "63-subsistence-farming-household-planning-assistant",
+      "name": "63-subsistence-farming-household-planning-assistant",
+      "description": "ช่วยทำแผนการผลิตอาหารและพึ่งพาตนเองของครัวเรือนแบบง่ายๆ ว่าแต่ละฤดูควรปลูก/จับ/เก็บอะไรบ้าง พร้อมประมาณการคร่าวๆ ว่ากินเองพอไหมและเหลือขายได้เท่าไหร่ ใช้ภาษาเรียบง่าย ไม่มีศัพท์เทคนิค ใช้ skill นี้เมื่อผู้ใช้พูดว่า \"วางแผนปลูกกินเอง\", \"ทำแผนครัวเรือนพึ่งตนเอง\", \"ปลูกอะไรดีให้พอกิน\", \"household food plan\", \"subsistence farming plan\", \"เก็บของป่าขาย\", \"แผนยังชีพ\" หรือเป็นเกษตรกรรายย่อยปลูกเพื่อบริโภคเอง ชาวประมงพื้นบ้าน หรือผู้เก็บของป่าที่ต้องการวางแผนการผลิตอาหารของครัวเรือน แม้ไม่ได้ใช้คำว่า \"แผน\" ตรงๆ ก็ให้ trigger เมื่อ context คือการวางแผนผลิตอาหารเพื่อยังชีพของครัวเรือน",
+      "category": "skilled-agricultural-forestry-fishery-workers",
+      "category_label": "6 · ผู้ปฏิบัติงานที่มีฝีมือด้านการเกษตร ป่าไม้ และประมง (Skilled Agricultural, Forestry and Fishery Workers)",
+      "path": "skills/skilled-agricultural-forestry-fishery-workers/63-subsistence-farming-household-planning-assistant/SKILL.md",
+      "readme": "skills/skilled-agricultural-forestry-fishery-workers/63-subsistence-farming-household-planning-assistant/README.md",
+      "zip": "dist/63-subsistence-farming-household-planning-assistant.zip"
+    },
+    {
+      "id": "71-construction-trade-job-quote-and-checklist-writer",
+      "name": "71-construction-trade-job-quote-and-checklist-writer",
+      "description": "ช่วยช่างก่อสร้างและงานที่เกี่ยวข้อง (ยกเว้นช่างไฟฟ้า) เขียนใบเสนอราคางาน (แยกรายการค่าวัสดุและค่าแรงเป็นบรรทัด) พร้อมเช็กลิสต์ความปลอดภัยหน้างานและความคืบหน้างานก่อสร้าง ใช้ skill นี้เมื่อผู้ใช้พูดว่า \"ทำใบเสนอราคางานก่อสร้าง\", \"คิดราคาค่าก่ออิฐ/ปูน/ไม้/มุงหลังคา\", \"ทำเช็กลิสต์หน้างาน\", \"job quote ช่างก่อสร้าง\", \"construction quotation\", \"เช็กความปลอดภัยไซต์งาน\" หรือกำลังเตรียมเสนอราคางานให้ช่างก่ออิฐ ช่างปูน ช่างไม้ ช่างมุงหลังคา ช่างประปา ช่างทาสี ช่างเชื่อมโครงเหล็กก่อสร้าง หรือช่างรื้อถอน แม้ไม่ได้ใช้คำว่า \"ใบเสนอราคา\" ตรงๆ ก็ให้ trigger เสมอเมื่อ context คืองานสัญญาก่อสร้างหรือหน้างานก่อสร้าง",
+      "category": "craft-related-trades-workers",
+      "category_label": "7 · ช่างฝีมือและผู้ปฏิบัติงานที่เกี่ยวข้อง (Craft and Related Trades Workers)",
+      "path": "skills/craft-related-trades-workers/71-construction-trade-job-quote-and-checklist-writer/SKILL.md",
+      "readme": "skills/craft-related-trades-workers/71-construction-trade-job-quote-and-checklist-writer/README.md",
+      "zip": "dist/71-construction-trade-job-quote-and-checklist-writer.zip"
+    },
+    {
+      "id": "72-machine-repair-service-report-writer",
+      "name": "72-machine-repair-service-report-writer",
+      "description": "ช่วยช่างโลหะ เครื่องจักร และงานที่เกี่ยวข้อง เขียนรายงานผลการซ่อมรถยนต์/เครื่องจักร (การวินิจฉัยอาการ อะไหล่ที่ใช้ ค่าแรง ผลตรวจก่อน-หลังซ่อม) พร้อมตารางแผนบำรุงรักษา ใช้ skill นี้เมื่อผู้ใช้พูดว่า \"เขียนใบรายงานซ่อมรถ\", \"ทำ service report เครื่องจักร\", \"สรุปอาการเสียและอะไหล่ที่เปลี่ยน\", \"vehicle repair report\", \"maintenance schedule เครื่องจักร\", \"ทำใบแจ้งซ่อม\" หรือกำลังบันทึกงานให้ช่างหล่อโลหะ ช่างเชื่อม ช่างตีเหล็ก ช่างกลึง ช่างทำแม่พิมพ์ ช่างซ่อมรถยนต์ ช่างซ่อมจักรยานยนต์ หรือช่างซ่อมอากาศยาน แม้ไม่ได้ใช้คำว่า \"รายงาน\" ตรงๆ ก็ให้ trigger เสมอเมื่อ context คือการบันทึกงานซ่อมหรือวางแผนบำรุงรักษาเครื่องจักร/ยานพาหนะ",
+      "category": "craft-related-trades-workers",
+      "category_label": "7 · ช่างฝีมือและผู้ปฏิบัติงานที่เกี่ยวข้อง (Craft and Related Trades Workers)",
+      "path": "skills/craft-related-trades-workers/72-machine-repair-service-report-writer/SKILL.md",
+      "readme": "skills/craft-related-trades-workers/72-machine-repair-service-report-writer/README.md",
+      "zip": "dist/72-machine-repair-service-report-writer.zip"
+    },
+    {
+      "id": "73-handicraft-and-print-shop-order-spec-writer",
+      "name": "73-handicraft-and-print-shop-order-spec-writer",
+      "description": "ช่วยช่างหัตถกรรมและช่างพิมพ์เขียนใบสเปกงานสั่งทำ (วัสดุ ขนาด รายละเอียดลวดลาย/ดีไซน์ และกำหนดเวลา) สำหรับงานสั่งทำเฉพาะบุคคลหรืองานพิมพ์ ใช้ skill นี้เมื่อผู้ใช้พูดว่า \"ทำใบสเปกงานสั่งทำ\", \"เขียนรายละเอียดงานเครื่องประดับ/เครื่องปั้น/งานทอ\", \"custom order spec\", \"ใบงานพิมพ์\", \"production spec ช่างฝีมือ\", \"ทำใบสั่งงานแกะสลัก/เครื่องดนตรี\" หรือกำลังรับออเดอร์ให้ช่างทำเครื่องประดับ ช่างเครื่องปั้นดินเผา ช่างทอผ้า ช่างจักสาน ช่างแกะสลัก ช่างทำเครื่องดนตรี ช่างเรียงพิมพ์ หรือช่างเข้าเล่ม แม้ไม่ได้ใช้คำว่า \"สเปก\" ตรงๆ ก็ให้ trigger เสมอเมื่อ context คือการรับออเดอร์งานสั่งทำเฉพาะหรืองานพิมพ์",
+      "category": "craft-related-trades-workers",
+      "category_label": "7 · ช่างฝีมือและผู้ปฏิบัติงานที่เกี่ยวข้อง (Craft and Related Trades Workers)",
+      "path": "skills/craft-related-trades-workers/73-handicraft-and-print-shop-order-spec-writer/SKILL.md",
+      "readme": "skills/craft-related-trades-workers/73-handicraft-and-print-shop-order-spec-writer/README.md",
+      "zip": "dist/73-handicraft-and-print-shop-order-spec-writer.zip"
+    },
+    {
+      "id": "74-electrical-installation-job-checklist-writer",
+      "name": "74-electrical-installation-job-checklist-writer",
+      "description": "ช่วยช่างไฟฟ้าและอิเล็กทรอนิกส์เขียนเช็กลิสต์ความปลอดภัยก่อน-หลังติดตั้งงานไฟฟ้า และรายงานสรุปงานที่เสร็จสิ้น เอกสารนี้เป็นเพียงตัวช่วยจดบันทึกและจัดระเบียบงาน ไม่ใช่การรับรองมาตรฐานความปลอดภัยหรือทดแทนดุลยพินิจของช่างไฟฟ้าที่มีใบอนุญาต ใช้ skill นี้เมื่อผู้ใช้พูดว่า \"ทำเช็กลิสต์ความปลอดภัยงานไฟฟ้า\", \"ตรวจงานไฟฟ้าก่อนส่งมอบ\", \"electrical safety checklist\", \"รายงานงานเดินสายไฟ\", \"job completion report ช่างไฟฟ้า\" หรือกำลังบันทึกงานให้ช่างไฟฟ้าอาคาร ช่างติดตั้งสายไฟ ช่างซ่อมอุปกรณ์ไฟฟ้า ช่างอิเล็กทรอนิกส์ ช่างติดตั้งเคเบิล/ไฟเบอร์ หรือช่างติดตั้งระบบโทรคมนาคม แม้ไม่ได้ใช้คำว่า \"เช็กลิสต์\" ตรงๆ ก็ให้ trigger เสมอเมื่อ context คืองานติดตั้งหรือซ่อมระบบไฟฟ้า/อิเล็กทรอนิกส์",
+      "category": "craft-related-trades-workers",
+      "category_label": "7 · ช่างฝีมือและผู้ปฏิบัติงานที่เกี่ยวข้อง (Craft and Related Trades Workers)",
+      "path": "skills/craft-related-trades-workers/74-electrical-installation-job-checklist-writer/SKILL.md",
+      "readme": "skills/craft-related-trades-workers/74-electrical-installation-job-checklist-writer/README.md",
+      "zip": "dist/74-electrical-installation-job-checklist-writer.zip"
+    },
+    {
+      "id": "75-craft-production-batch-and-quality-log-writer",
+      "name": "75-craft-production-batch-and-quality-log-writer",
+      "description": "ช่วยช่างแปรรูปอาหาร ไม้ เครื่องนุ่งห่ม และช่างฝีมืออื่นๆ เขียนบันทึกการผลิตแบบล็อต (วัตถุดิบ/วัสดุ ปริมาณ จุดตรวจคุณภาพ จำนวนผลผลิต) พร้อมจุดตรวจความปลอดภัยด้านอาหารหรือคุณภาพงานตัดเย็บตามความเหมาะสม ใช้ skill นี้เมื่อผู้ใช้พูดว่า \"ทำบันทึกการผลิตล็อต\", \"production batch log\", \"จดบันทึกทำขนมปัง/แฮม/ชีส\", \"ตรวจคุณภาพงานตัดเย็บ\", \"บันทึกการฟอกหนัง/ทำรองเท้า\", \"log การเลื่อยไม้\" หรือกำลังบันทึกงานให้คนชำแหละเนื้อ คนทำขนมปัง ผู้ผลิตแฮม/ชีส ผู้ตัดเย็บเสื้อผ้า ช่างฟอกหนัง ช่างทำรองเท้า หรือช่างเลื่อยไม้ แม้ไม่ได้ใช้คำว่า \"บันทึกล็อต\" ตรงๆ ก็ให้ trigger เสมอเมื่อ context คือการบันทึกงานผลิตเป็นล็อตในโรงงานแปรรูปอาหารหรือเวิร์กช็อปงานฝีมือ",
+      "category": "craft-related-trades-workers",
+      "category_label": "7 · ช่างฝีมือและผู้ปฏิบัติงานที่เกี่ยวข้อง (Craft and Related Trades Workers)",
+      "path": "skills/craft-related-trades-workers/75-craft-production-batch-and-quality-log-writer/SKILL.md",
+      "readme": "skills/craft-related-trades-workers/75-craft-production-batch-and-quality-log-writer/README.md",
+      "zip": "dist/75-craft-production-batch-and-quality-log-writer.zip"
+    },
+    {
+      "id": "81-plant-operator-shift-log-and-maintenance-writer",
+      "name": "81-plant-operator-shift-log-and-maintenance-writer",
+      "description": "ช่วยเขียนบันทึกส่งเวร (shift handover log) และแบบตรวจเช็กบำรุงรักษาเชิงป้องกัน (preventive-maintenance checklist) สำหรับผู้ควบคุมเครื่องจักรโรงงานประจำที่ เช่น เครื่องจักรเหมืองแร่ เครื่องจักรแปรรูปโลหะ เครื่องจักรผลิตซีเมนต์/แก้ว เครื่องจักรเคมี เครื่องจักรผลิตกระดาษ เครื่องจักรสิ่งทอ เครื่องจักรแปรรูปอาหาร และพนักงานควบคุมหม้อไอน้ำ ใช้ skill นี้เมื่อผู้ใช้พูดว่า \"เขียนบันทึกส่งเวร\", \"shift handover\", \"ทำ maintenance checklist\", \"log การเดินเครื่อง\", \"รายงานสภาพเครื่องจักร\", \"บันทึกกะ\", \"preventive maintenance\", \"PM checklist\" หรือทำงานเป็นผู้ควบคุมเครื่องจักรโรงงานที่ต้องส่งต่อข้อมูลระหว่างกะ",
+      "category": "plant-machine-operators-assemblers",
+      "category_label": "8 · ผู้ควบคุมเครื่องจักรโรงงานและผู้ประกอบชิ้นงาน (Plant and Machine Operators, and Assemblers)",
+      "path": "skills/plant-machine-operators-assemblers/81-plant-operator-shift-log-and-maintenance-writer/SKILL.md",
+      "readme": "skills/plant-machine-operators-assemblers/81-plant-operator-shift-log-and-maintenance-writer/README.md",
+      "zip": "dist/81-plant-operator-shift-log-and-maintenance-writer.zip"
+    },
+    {
+      "id": "82-assembly-line-quality-checklist-writer",
+      "name": "82-assembly-line-quality-checklist-writer",
+      "description": "ช่วยเขียนแบบตรวจสอบคุณภาพประจำสายการประกอบ (assembly-line quality-check checklist) และรูปแบบบันทึกข้อบกพร่อง (defect-tracking log) สำหรับผู้ประกอบชิ้นส่วน เช่น พนักงานประกอบเครื่องจักรกล ประกอบอุปกรณ์ไฟฟ้า ประกอบอุปกรณ์อิเล็กทรอนิกส์ และประกอบชิ้นส่วนยานยนต์ ใช้ skill นี้เมื่อผู้ใช้พูดว่า \"ทำ quality checklist สายการประกอบ\", \"บันทึกของเสีย\", \"defect log\", \"ตรวจสอบคุณภาพงานประกอบ\", \"QC checklist ไลน์ผลิต\", \"รายงานชิ้นงานบกพร่อง\" หรือทำงานในสายการประกอบที่ต้องบันทึกผลตรวจสอบและติดตามข้อบกพร่อง",
+      "category": "plant-machine-operators-assemblers",
+      "category_label": "8 · ผู้ควบคุมเครื่องจักรโรงงานและผู้ประกอบชิ้นงาน (Plant and Machine Operators, and Assemblers)",
+      "path": "skills/plant-machine-operators-assemblers/82-assembly-line-quality-checklist-writer/SKILL.md",
+      "readme": "skills/plant-machine-operators-assemblers/82-assembly-line-quality-checklist-writer/README.md",
+      "zip": "dist/82-assembly-line-quality-checklist-writer.zip"
+    },
+    {
+      "id": "83-driver-trip-log-and-safety-checklist-writer",
+      "name": "83-driver-trip-log-and-safety-checklist-writer",
+      "description": "ช่วยเขียนบันทึกการเดินทางประจำวัน (daily trip log), แบบตรวจเช็กความปลอดภัยรถก่อนออกเดินทาง (pre-trip safety checklist) และแบบฟอร์มรายงานอุบัติเหตุ/เหตุการณ์ (incident-reporting template) สำหรับพนักงานขับรถและผู้ควบคุมเครื่องจักรเคลื่อนที่ เช่น คนขับแท็กซี่ คนขับรถบรรทุก คนขับรถโดยสาร พนักงานขับรถไฟ ผู้ควบคุมรถขุด/รถยก คนขับจักรยานยนต์รับจ้าง และไรเดอร์ส่งของแพลตฟอร์ม ใช้ skill นี้เมื่อผู้ใช้พูดว่า \"ทำ trip log\", \"บันทึกการเดินรถ\", \"เช็กความปลอดภัยก่อนออกรถ\", \"pre-trip checklist\", \"รายงานอุบัติเหตุ\", \"incident report คนขับ\" หรือทำงานขับรถ/ควบคุมเครื่องจักรเคลื่อนที่ที่ต้องบันทึกการเดินทางและความปลอดภัยเป็นประจำ",
+      "category": "plant-machine-operators-assemblers",
+      "category_label": "8 · ผู้ควบคุมเครื่องจักรโรงงานและผู้ประกอบชิ้นงาน (Plant and Machine Operators, and Assemblers)",
+      "path": "skills/plant-machine-operators-assemblers/83-driver-trip-log-and-safety-checklist-writer/SKILL.md",
+      "readme": "skills/plant-machine-operators-assemblers/83-driver-trip-log-and-safety-checklist-writer/README.md",
+      "zip": "dist/83-driver-trip-log-and-safety-checklist-writer.zip"
+    },
+    {
+      "id": "91-cleaning-service-schedule-and-checklist-writer",
+      "name": "91-cleaning-service-schedule-and-checklist-writer",
+      "description": "ช่วยเขียนตารางทำความสะอาดประจำวัน/ประจำสัปดาห์แบ่งตามโซนพื้นที่ พร้อมเช็คลิสต์ตรวจคุณภาพงานความสะอาดที่ใช้ภาษาง่ายๆ พิมพ์ติดบอร์ดหรือพกไปเช็คหน้างานได้ทันที ใช้ skill นี้เมื่อผู้ใช้พูดว่า \"ทำตารางทำความสะอาด\", \"เช็คลิสต์ความสะอาด\", \"cleaning schedule\", \"cleaning checklist\", \"จัดคิวแม่บ้าน\", \"ตารางเข้าเวรทำความสะอาด\" หรือเป็นแม่บ้านประจำบ้าน พนักงานทำความสะอาดสำนักงาน/โรงแรม พนักงานทำความสะอาดยานพาหนะ คนซักรีด หรือคนเช็ดกระจกอาคารที่ต้องการวางแผนงานทำความสะอาดให้เป็นระบบ แม้ไม่ได้ใช้คำว่า \"ตาราง\" ตรงๆ ก็ให้ trigger เมื่อ context คือการวางแผนหรือตรวจสอบงานทำความสะอาด",
+      "category": "elementary-occupations",
+      "category_label": "9 · ผู้ประกอบอาชีพงานพื้นฐาน (Elementary Occupations)",
+      "path": "skills/elementary-occupations/91-cleaning-service-schedule-and-checklist-writer/SKILL.md",
+      "readme": "skills/elementary-occupations/91-cleaning-service-schedule-and-checklist-writer/README.md",
+      "zip": "dist/91-cleaning-service-schedule-and-checklist-writer.zip"
+    },
+    {
+      "id": "92-farm-labour-daily-task-assignment-writer",
+      "name": "92-farm-labour-daily-task-assignment-writer",
+      "description": "ช่วยเขียนใบมอบหมายงานประจำวันสำหรับทีมคนงานเกษตร ป่าไม้ หรือประมง ระบุว่าใครทำอะไร ที่ไหน คาดหวังผลงานเท่าไหร่ ใช้ภาษาง่ายอ่านแล้วลงมือทำได้ทันที ใช้ skill นี้เมื่อผู้ใช้พูดว่า \"มอบหมายงานคนงานฟาร์ม\", \"แบ่งงานลูกน้องเกษตร\", \"daily task farm\", \"แบ่งงานตัดอ้อย/เก็บผลไม้\", \"จัดคนลงเรือประมง\" หรือเป็นหัวหน้าทีมที่ดูแลคนงานรับจ้างเกษตร คนตัดอ้อย คนเก็บผลไม้ คนงานฟาร์ม คนงานเรือประมง หรือคนงานป่าไม้ที่ต้องการแบ่งงานประจำวันให้ทีม แม้ไม่ได้ใช้คำว่า \"มอบหมาย\" ตรงๆ ก็ให้ trigger เมื่อ context คือการจัดคนงานเกษตร/ป่าไม้/ประมงลงงานแต่ละวัน",
+      "category": "elementary-occupations",
+      "category_label": "9 · ผู้ประกอบอาชีพงานพื้นฐาน (Elementary Occupations)",
+      "path": "skills/elementary-occupations/92-farm-labour-daily-task-assignment-writer/SKILL.md",
+      "readme": "skills/elementary-occupations/92-farm-labour-daily-task-assignment-writer/README.md",
+      "zip": "dist/92-farm-labour-daily-task-assignment-writer.zip"
+    },
+    {
+      "id": "93-labour-crew-daily-safety-briefing-writer",
+      "name": "93-labour-crew-daily-safety-briefing-writer",
+      "description": "ช่วยเขียนสคริปต์พูดสรุปความปลอดภัยสั้นๆ ก่อนเริ่มกะงาน สำหรับหัวหน้าทีมคนงานเหมืองแร่ ก่อสร้าง การผลิต และการขนส่ง ระบุอันตรายของวันนั้น อุปกรณ์ป้องกันที่ต้องใส่ และเบอร์ติดต่อฉุกเฉิน ใช้ skill นี้เมื่อผู้ใช้พูดว่า \"พูดเซฟตี้ทอล์คก่อนเข้ากะ\", \"safety briefing\", \"toolbox talk\", \"แจ้งความปลอดภัยหน้างานก่อสร้าง\" หรือเป็นหัวหน้าทีมกรรมกรก่อสร้าง คนงานเหมือง คนงานโรงงาน คนแบกหาม คนบรรจุหีบห่อ คนงานคลังสินค้า หรือคนเข็นของที่ต้องพูดเตือนความปลอดภัยให้ทีมฟังก่อนเริ่มงาน แม้ไม่ได้ใช้คำว่า \"safety\" ตรงๆ ก็ให้ trigger เมื่อ context คือการเตือนความปลอดภัยทีมงานก่อนเริ่มกะ",
+      "category": "elementary-occupations",
+      "category_label": "9 · ผู้ประกอบอาชีพงานพื้นฐาน (Elementary Occupations)",
+      "path": "skills/elementary-occupations/93-labour-crew-daily-safety-briefing-writer/SKILL.md",
+      "readme": "skills/elementary-occupations/93-labour-crew-daily-safety-briefing-writer/README.md",
+      "zip": "dist/93-labour-crew-daily-safety-briefing-writer.zip"
+    },
+    {
+      "id": "94-kitchen-prep-and-food-safety-checklist-writer",
+      "name": "94-kitchen-prep-and-food-safety-checklist-writer",
+      "description": "ช่วยเขียนเช็คลิสต์เตรียมอาหารในครัวและเช็คลิสต์สุขอนามัยพื้นฐาน (ล้างมือ เก็บของแยกประเภท ระวังปนเปื้อนข้าม) สำหรับผู้ช่วยครัวและพนักงานเตรียมอาหาร เป็นแนวทางทั่วไปเท่านั้น ไม่ใช่มาตรฐานรับรองทางการ ใช้ skill นี้เมื่อผู้ใช้พูดว่า \"เช็คลิสต์เตรียมอาหาร\", \"เช็คลิสต์สุขอนามัยครัว\", \"kitchen prep checklist\", \"food safety checklist ครัว\" หรือเป็นผู้ช่วยในครัว พนักงานล้างจาน หรือพนักงานเตรียมอาหารจานด่วนที่ต้องการจัดระบบงานเตรียมอาหารและความสะอาดในครัว แม้ไม่ได้ใช้คำว่า \"checklist\" ตรงๆ ก็ให้ trigger เมื่อ context คือการเตรียมอาหารและดูแลความสะอาดในครัว",
+      "category": "elementary-occupations",
+      "category_label": "9 · ผู้ประกอบอาชีพงานพื้นฐาน (Elementary Occupations)",
+      "path": "skills/elementary-occupations/94-kitchen-prep-and-food-safety-checklist-writer/SKILL.md",
+      "readme": "skills/elementary-occupations/94-kitchen-prep-and-food-safety-checklist-writer/README.md",
+      "zip": "dist/94-kitchen-prep-and-food-safety-checklist-writer.zip"
+    },
+    {
+      "id": "95-street-vendor-daily-sales-log-writer",
+      "name": "95-street-vendor-daily-sales-log-writer",
+      "description": "ช่วยเขียนสมุดบันทึกยอดขายประจำวันแบบง่ายๆ อ่านง่าย เขียนตามได้ทันที บันทึกของที่ขายได้ เงินเข้า-เงินออก และเตือนของที่ต้องซื้อเพิ่ม เหมาะสำหรับคนขายของตามถนนที่ไม่ถนัดบัญชี ใช้ skill นี้เมื่อผู้ใช้พูดว่า \"จดบันทึกยอดขาย\", \"ทำสมุดรายรับรายจ่ายพ่อค้าแม่ค้า\", \"daily sales log\", \"จดเงินเข้าเงินออกรถเข็น\" หรือเป็นคนขายของริมถนน คนขายอาหารข้างทาง คนขัดรองเท้า คนล้างกระจกรถตามสี่แยก หรือคนวิ่งงานตามถนนที่ต้องการจดบันทึกรายรับ-รายจ่ายประจำวันง่ายๆ แม้ไม่ได้ใช้คำว่า \"log\" ตรงๆ ก็ให้ trigger เมื่อ context คือการจดบันทึกยอดขายหรือเงินประจำวันของผู้ค้ารายย่อย",
+      "category": "elementary-occupations",
+      "category_label": "9 · ผู้ประกอบอาชีพงานพื้นฐาน (Elementary Occupations)",
+      "path": "skills/elementary-occupations/95-street-vendor-daily-sales-log-writer/SKILL.md",
+      "readme": "skills/elementary-occupations/95-street-vendor-daily-sales-log-writer/README.md",
+      "zip": "dist/95-street-vendor-daily-sales-log-writer.zip"
+    },
+    {
+      "id": "96-waste-collection-route-and-log-writer",
+      "name": "96-waste-collection-route-and-log-writer",
+      "description": "ช่วยเขียนเช็คลิสต์เส้นทางเก็บขยะและสมุดบันทึกกิจกรรมประจำวันแบบง่ายๆ สำหรับงานเก็บขยะและงานพื้นฐานอื่นๆ ระบุจุดที่ต้องไป ลำดับก่อน-หลัง และสิ่งที่ต้องบันทึกแต่ละจุด ใช้ skill นี้เมื่อผู้ใช้พูดว่า \"ทำเส้นทางเก็บขยะ\", \"checklist เก็บขยะ\", \"waste collection route\", \"บันทึกงานเก็บขยะประจำวัน\", \"ตารางกวาดถนน\" หรือเป็นพนักงานเก็บขยะ คนคัดแยกขยะ/ซาเล้ง คนกวาดถนน พนักงานส่งเอกสารและส่งของ พนักงานอ่านมาตรวัด คนเฝ้าประตู หรือคนเติมสินค้าบนชั้นวางที่ต้องการวางแผนเส้นทางหรือบันทึกงานประจำวัน แม้ไม่ได้ใช้คำว่า \"route\" ตรงๆ ก็ให้ trigger เมื่อ context คือการวางแผนเส้นทางหรือบันทึกงานพื้นฐานประจำวันกลุ่มนี้",
+      "category": "elementary-occupations",
+      "category_label": "9 · ผู้ประกอบอาชีพงานพื้นฐาน (Elementary Occupations)",
+      "path": "skills/elementary-occupations/96-waste-collection-route-and-log-writer/SKILL.md",
+      "readme": "skills/elementary-occupations/96-waste-collection-route-and-log-writer/README.md",
+      "zip": "dist/96-waste-collection-route-and-log-writer.zip"
+    },
+    {
+      "id": "01-military-officer-operations-briefing-writer",
+      "name": "01-military-officer-operations-briefing-writer",
+      "description": "ช่วยเขียนแบบฟอร์มบันทึกข้อความสำหรับการบรรยายสรุปงานประจำวัน (operations briefing memo) และแบบฟอร์มรายงานสถานะหน่วยกำลังพล/ยุทโธปกรณ์ ในเชิงธุรการและการจัดการองค์กรล้วนๆ (จำนวนกำลังพล ตารางเวร สถานะความพร้อมของอุปกรณ์) สำหรับนายทหารสัญญาบัตร ใช้เมื่อผู้ใช้พูดว่า \"เขียนบรรยายสรุปประจำวัน\", \"ทำรายงานสถานะหน่วย\", \"แบบฟอร์ม briefing นายทหาร\", \"military briefing memo\", \"unit status report\" หรือขอเอกสารบริหารจัดการหน่วยระดับนายทหารสัญญาบัตร",
+      "category": "armed-forces-occupations",
+      "category_label": "0 · ทหาร (Armed Forces Occupations)",
+      "path": "skills/armed-forces-occupations/01-military-officer-operations-briefing-writer/SKILL.md",
+      "readme": "skills/armed-forces-occupations/01-military-officer-operations-briefing-writer/README.md",
+      "zip": "dist/01-military-officer-operations-briefing-writer.zip"
+    },
+    {
+      "id": "02-nco-unit-training-schedule-writer",
+      "name": "02-nco-unit-training-schedule-writer",
+      "description": "ช่วยเขียนตารางฝึกอบรมประจำหน่วย (unit training schedule) และบันทึกการเข้าร่วมฝึก/ความพร้อมของกำลังพล สำหรับกิจกรรมฝึกอบรมทั่วไปที่ไม่เป็นข้อมูลลับ เหมาะสำหรับนายทหารชั้นประทวน ใช้เมื่อผู้ใช้พูดว่า \"ทำตารางฝึกอบรม\", \"บันทึกการเข้าร่วมฝึก\", \"unit training schedule\", \"attendance log ทหาร\", \"ตารางเวรฝึก\" หรือขอเอกสารบริหารจัดการฝึกอบรมระดับนายทหารชั้นประทวน",
+      "category": "armed-forces-occupations",
+      "category_label": "0 · ทหาร (Armed Forces Occupations)",
+      "path": "skills/armed-forces-occupations/02-nco-unit-training-schedule-writer/SKILL.md",
+      "readme": "skills/armed-forces-occupations/02-nco-unit-training-schedule-writer/README.md",
+      "zip": "dist/02-nco-unit-training-schedule-writer.zip"
+    },
+    {
+      "id": "03-enlisted-personnel-daily-duty-roster-writer",
+      "name": "03-enlisted-personnel-daily-duty-roster-writer",
+      "description": "ช่วยเขียนตารางเวรประจำวัน (daily duty roster) และตารางกิจวัตรประจำหน่วย/กองพัก สำหรับพลทหาร ในรูปแบบเอกสารธุรการล้วนๆ ใช้เมื่อผู้ใช้พูดว่า \"ทำตารางเวรพลทหาร\", \"ตารางกิจวัตรกองพัก\", \"daily duty roster\", \"ตารางเวรยาม\", \"จัดเวรประจำวัน\" หรือขอเอกสารบริหารจัดการเวร/กิจวัตรระดับพลทหาร",
+      "category": "armed-forces-occupations",
+      "category_label": "0 · ทหาร (Armed Forces Occupations)",
+      "path": "skills/armed-forces-occupations/03-enlisted-personnel-daily-duty-roster-writer/SKILL.md",
+      "readme": "skills/armed-forces-occupations/03-enlisted-personnel-daily-duty-roster-writer/README.md",
+      "zip": "dist/03-enlisted-personnel-daily-duty-roster-writer.zip"
     }
   ]
 }

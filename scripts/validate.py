@@ -8,6 +8,7 @@ Checks:
   - description is non-trivial length (helps triggering)
   - body line count <= 350 (hard cap) and warns if > 220 (soft target)
   - the closing Insightist credit line is present
+  - a bilingual README.md exists next to SKILL.md and names the right Skill ID
   - no references to Claude-specific tool names or product names
     (cross-platform portability — see docs/CROSS_PLATFORM.md)
 
@@ -124,6 +125,17 @@ def main() -> int:
 
             if CREDIT_MARKER not in text:
                 warnings.append(f"{prefix} missing '{CREDIT_MARKER}' credit line")
+
+            readme = skill_dir / "README.md"
+            if not readme.exists():
+                errors.append(f"{prefix} missing README.md (bilingual Thai/English description)")
+            else:
+                readme_text = readme.read_text(encoding="utf-8")
+                if f"`{skill_dir.name}`" not in readme_text:
+                    errors.append(f"{prefix} README.md does not mention Skill ID `{skill_dir.name}`")
+                for anchor in ('<a id="th"></a>', '<a id="en"></a>'):
+                    if anchor not in readme_text:
+                        warnings.append(f"{prefix} README.md missing {anchor} section")
 
             for term in FORBIDDEN_TOOL_TERMS:
                 if term.lower() in text.lower():

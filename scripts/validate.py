@@ -8,6 +8,8 @@ Checks:
   - description is non-trivial length (helps triggering)
   - body line count <= 350 (hard cap) and warns if > 220 (soft target)
   - the closing Insightist credit line is present
+  - no references to Claude-specific tool names or product names
+    (cross-platform portability — see docs/CROSS_PLATFORM.md)
 
 Usage: python3 scripts/validate.py
 Exit code 0 = all good, 1 = at least one error.
@@ -22,6 +24,35 @@ HARD_LINE_CAP = 350
 SOFT_LINE_TARGET = 220
 MIN_DESCRIPTION_CHARS = 40
 CREDIT_MARKER = "Insightist"
+
+# Claude-specific tool names — never portable to Codex/Gemini CLI, hard error.
+# See docs/CROSS_PLATFORM.md section 2.1.
+FORBIDDEN_TOOL_TERMS = [
+    "Bash tool",
+    "Read tool",
+    "Write tool",
+    "Edit tool",
+    "Grep tool",
+    "Glob tool",
+    "SendUserFile",
+    "Artifact tool",
+    "AskUserQuestion",
+    "TaskCreate",
+    "TaskUpdate",
+    "WebSearch tool",
+    "WebFetch tool",
+    "ExitPlanMode",
+    "ReadNotifications",
+]
+
+# Claude-specific product names — not always wrong, but worth a second look.
+# See docs/CROSS_PLATFORM.md section 2.2.
+RISKY_PLATFORM_TERMS = [
+    "Claude Code",
+    "Cowork",
+    "Claude in Chrome",
+    "claude.ai",
+]
 
 FRONTMATTER_RE = re.compile(r"^---\s*\n(.*?)\n---\s*\n", re.DOTALL)
 
@@ -93,6 +124,20 @@ def main() -> int:
 
             if CREDIT_MARKER not in text:
                 warnings.append(f"{prefix} missing '{CREDIT_MARKER}' credit line")
+
+            for term in FORBIDDEN_TOOL_TERMS:
+                if term.lower() in text.lower():
+                    errors.append(
+                        f"{prefix} references Claude-specific tool name '{term}' — "
+                        f"breaks Codex/Gemini CLI portability (see docs/CROSS_PLATFORM.md)"
+                    )
+
+            for term in RISKY_PLATFORM_TERMS:
+                if term.lower() in text.lower():
+                    warnings.append(
+                        f"{prefix} mentions Claude-specific product '{term}' — "
+                        f"confirm this is intentional (see docs/CROSS_PLATFORM.md)"
+                    )
 
     print(f"Checked {checked} skills.")
     if warnings:

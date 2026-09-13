@@ -107,6 +107,8 @@ flowchart TB
 
 เช็คก่อนว่ามีในแผนหรือยังที่ [`docs/TAXONOMY.md`](docs/TAXONOMY.md) — ถ้ายังไม่มีหมวดที่ต้องการ เพิ่มเข้าไปในนั้นได้เลย
 
+**เขียนให้ใช้ได้ทั้ง Claude/Codex/Gemini ด้วย** — ห้ามเอ่ยชื่อ tool เฉพาะ Claude (เช่น "Bash tool", "SendUserFile") ใน body ของ SKILL.md เพราะ Codex/Gemini CLI ไม่มี tool ชื่อนั้น กติกาเต็ม ๆ และเหตุผลอยู่ที่ [`docs/CROSS_PLATFORM.md`](docs/CROSS_PLATFORM.md) — `scripts/validate.py` เช็คให้อัตโนมัติอยู่แล้ว
+
 ## เครดิต
 
 ทำและดูแลโดยทีม **Insightist™** — ปล่อยฟรีเป็น public library ให้ใครก็ใช้ได้ตาม [MIT License](LICENSE)

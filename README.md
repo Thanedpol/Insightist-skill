@@ -71,23 +71,55 @@ flowchart TB
 
 ## เอาไปใช้ยังไง (เลือกตามที่คุณใช้อยู่)
 
-**Claude.ai (Chat / Cowork)** — เปิด `dist/<skill-name>.zip` แล้วอัปโหลดในหน้า Skills settings ได้เลย ไม่ต้องยุ่งกับโค้ด
+> skill ในคลังนี้เก็บแยกหมวดเป็น 2 ชั้น (`skills/<หมวด>/<skill>/SKILL.md`) แต่เครื่องมือส่วนใหญ่มองหาแค่ชั้นเดียว
+> อย่า clone แล้ววางทั้งก้อน ใช้วิธีด้านล่างแทน วิธีไหนก็ได้ผลลัพธ์เดียวกัน
 
-**Claude Code / Cowork แบบทีเดียวหมด** —
+**ทางลัดใช้ได้กับเกือบทุกเครื่องมือ: `npx skills`** (ต้องมี Node.js) — ตัวติดตั้งนี้หา skill ที่ซ้อนหมวดเจอเอง
+แล้วถามว่าจะติดตั้งให้ agent ตัวไหน (Claude Code, Codex, Gemini CLI, Cursor, Copilot, Goose, Kiro ฯลฯ)
+
+```bash
+npx skills add Thanedpol/Insightist-skill
+```
+
+**สคริปต์ของคลังนี้เอง: `scripts/install.py`** (ใช้แค่ Python ไม่ต้องติดตั้งอะไรเพิ่ม) — ก๊อป skill ไปวางแบบชั้นเดียว
+ในโฟลเดอร์ที่เครื่องมือของคุณอ่าน ส่วนใหญ่ใช้ `.agents/skills` ได้เลย ถ้าไม่แน่ใจดู path ของแต่ละเครื่องมือใน
+[`docs/TOOL_COMPATIBILITY.md`](docs/TOOL_COMPATIBILITY.md)
+
+```bash
+git clone https://github.com/Thanedpol/Insightist-skill.git
+python3 Insightist-skill/scripts/install.py --target .agents/skills                       # ทุก skill
+python3 Insightist-skill/scripts/install.py --target .agents/skills --category managers   # เฉพาะหมวด
+python3 Insightist-skill/scripts/install.py --list                                        # ดูรายชื่อทั้งหมด
+```
+
+**Claude Code** — เพิ่ม marketplace แล้วติดตั้งทีละ skill (แต่ละ skill เป็น plugin แยกกัน)
+
 ```
 /plugin marketplace add Thanedpol/Insightist-skill
 /plugin install <skill-name>@insightist-skills
 ```
 
-**OpenAI Codex** — วางโฟลเดอร์ skill ไว้ในโฟลเดอร์ skills ของ Codex ตรง ๆ หรือถ้าต่อ Codex Marketplace ไว้แล้วก็ `codex-marketplace add Thanedpol/Insightist-skill`
+**Claude.ai / Claude Desktop** — อัปโหลด `dist/<skill-name>.zip` ที่เมนู Customize › Skills › + › Upload a skill
+⚠️ ยังไม่ได้ทดสอบอัปโหลดจริง: หน้าช่วยเหลือของ Claude ระบุว่า description ยาวได้ไม่เกิน 200 ตัวอักษร
+แต่เอกสาร API ระบุ 1,024 ตัวอักษร ส่วน description ของ skill ในคลังนี้ยาว 280–822 ตัวอักษร ถ้าอัปโหลดไม่ผ่านให้ใช้วิธีอื่นแทน
 
-**Gemini CLI** — อ่าน `SKILL.md` ได้เลยเพราะเป็นมาตรฐานเดียวกัน แค่ก็อปโฟลเดอร์ไปวางใน skills directory ของ Gemini
+**OpenAI Codex** — ใช้ `scripts/install.py --target .agents/skills` (ระดับโปรเจกต์) หรือ `--target ~/.agents/skills` (ทุกโปรเจกต์)
+หรือสั่ง `$skill-installer` ใน Codex ให้ติดตั้งจาก repo `Thanedpol/Insightist-skill` path `skills/<หมวด>/<skill>` branch `master`
 
-**เครื่องมืออื่น ๆ (Cursor, GitHub Copilot, VS Code, Kiro, Goose, Amp, JetBrains Junie และอีกกว่า 20 ตัว)** — ก็อปโฟลเดอร์ skill ทั้งก้อนไปวางที่ `.agents/skills/<skill-name>/` ที่ root ของโปรเจกต์ ใช้ได้ทันทีเพราะ path นี้กลายเป็นมาตรฐานพฤตินัยที่หลายเครื่องมือบรรจบกันแล้ว (ดูรายละเอียดทีละตัวที่ [`docs/TOOL_COMPATIBILITY.md`](docs/TOOL_COMPATIBILITY.md))
+**Gemini CLI** — ติดตั้งจาก GitHub ได้ในคำสั่งเดียว (ต้องใส่ `--path` ถึงหมวดหรือถึง skill เพราะ Gemini มองลึกชั้นเดียว)
+
+```bash
+gemini skills install https://github.com/Thanedpol/Insightist-skill.git --path skills/managers
+```
+
+**เครื่องมือที่อ่านแค่ `AGENTS.md` (เช่น Pulumi Neo)** — ใช้ [`AGENTS.md`](AGENTS.md) ที่ gen ไว้ให้ หรือสร้างใหม่ให้ชี้ไปที่ skill ที่ติดตั้งไว้:
+`python3 Insightist-skill/scripts/install.py --target .agents/skills --agents-md AGENTS.md`
 
 **ขี้เกียจติดตั้ง?** เปิดไฟล์ `SKILL.md` ที่ต้องการ copy ทั้งไฟล์ไปวางเป็น custom instruction ได้เลย ทุก skill เขียนให้ self-contained อยู่แล้ว ไม่ต้องพึ่งไฟล์อื่น
 
-**ใช้เครื่องมืออื่นนอกจากนี้?** ตรวจสอบมาแล้วอีก 44 เครื่องมือ (Cursor, GitHub Copilot, VS Code, Kiro, Goose, Amp, JetBrains Junie ฯลฯ) ว่าตัวไหนอ่าน `SKILL.md` ได้ตรงๆ ตัวไหนต้องแปลงไฟล์ก่อน — ดูตารางเต็มที่ [`docs/TOOL_COMPATIBILITY.md`](docs/TOOL_COMPATIBILITY.md)
+**รองรับเครื่องมือไหนบ้าง?** ตรวจกับเอกสารทางการแล้ว 44 เครื่องมือ — อ่าน `SKILL.md` ได้ตรงๆ 37 ตัว นำเข้าผ่านแอป 3 ตัว
+ใช้ `AGENTS.md` 1 ตัว และอีก 3 ตัวไม่ใช่เครื่องมือที่รับ skill เอง ดูตารางเต็ม ข้อจำกัด และลิงก์แหล่งอ้างอิงที่
+[`docs/TOOL_COMPATIBILITY.md`](docs/TOOL_COMPATIBILITY.md)
 
 ## โครงสร้างในนี้มีอะไรบ้าง
 
@@ -96,10 +128,10 @@ flowchart TB
 ├── LICENSE                      # MIT — เอาไปใช้ ต่อยอด แจกต่อได้เลย
 ├── AGENTS.md                    # สารบัญ skill สำหรับ agent ที่อ่าน AGENTS.md (gen อัตโนมัติ)
 ├── catalog.json                 # index รวมทุก skill (gen อัตโนมัติ)
-├── .claude-plugin/marketplace.json  # ให้ /plugin marketplace add ได้
+├── .claude-plugin/marketplace.json  # ให้ Claude Code สั่ง /plugin marketplace add ได้
 ├── docs/TAXONOMY.md             # แผนที่หมวด/อาชีพทั้งหมดตาม ISCO-08 (10 หมวดใหญ่ / 43 หมวดย่อย)
 ├── docs/CROSS_PLATFORM.md       # กติกาเขียน SKILL.md ให้ข้ามแพลตฟอร์มได้ (Claude/Codex/Gemini)
-├── docs/TOOL_COMPATIBILITY.md   # ผลตรวจสอบความเข้ากันได้กับอีก 44 เครื่องมือ AI agent
+├── docs/TOOL_COMPATIBILITY.md   # ผลตรวจความเข้ากันได้กับ 44 เครื่องมือ AI agent พร้อม path และแหล่งอ้างอิง
 ├── skills/<category>/<skill-name>/SKILL.md   # ตัว skill
 ├── skills/<category>/<skill-name>/README.md  # คำอธิบายไทย/อังกฤษของแต่ละ skill
 ├── dist/<skill-name>.zip        # แพ็กเกจติดตั้งพร้อมใช้ต่อ 1 skill

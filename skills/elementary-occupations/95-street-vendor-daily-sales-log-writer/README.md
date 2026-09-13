@@ -20,6 +20,7 @@
 
 คนขายของริมถนน คนขายอาหารข้างทางและรถเข็น คนขัดรองเท้า คนล้างกระจกรถตามสี่แยก และคนวิ่งงานตามถนน
 รวมถึงพ่อค้าแม่ค้ารายย่อยที่ไม่ถนัดบัญชีแต่อยากเริ่มจดรายรับ-รายจ่ายประจำวันให้เป็นนิสัย
+(หมายเหตุ: ISCO-08 จัดคนขายอาหารข้างทางไว้ที่ 5212 ในหมวด 52 แต่สมุดบันทึกนี้ใช้ได้เหมือนกัน)
 
 ### ทำอะไรได้บ้าง
 
@@ -58,7 +59,8 @@
 
 Street vendors, roadside food and cart sellers, shoe shiners, windscreen washers at intersections
 and street errand runners, plus any small trader who is not comfortable with bookkeeping but wants
-to start a simple daily habit of recording money in and out.
+to start a simple daily habit of recording money in and out. (Note: ISCO-08 classifies street food
+sellers under 5212 in group 52, but the log works just as well for them.)
 
 ### What it can do
 

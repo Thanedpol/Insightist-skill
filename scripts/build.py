@@ -127,6 +127,7 @@ def render_zip(skill_dir: Path) -> bytes:
             arcname = (Path(skill_dir.name) / path.relative_to(skill_dir)).as_posix()
             info = zipfile.ZipInfo(arcname, date_time=ZIP_DATE)
             info.compress_type = zipfile.ZIP_DEFLATED
+            info.create_system = 3  # always "Unix" so Windows and CI builds are byte-identical
             info.external_attr = 0o644 << 16
             zf.writestr(info, data)
     return buf.getvalue()

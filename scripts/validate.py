@@ -24,6 +24,9 @@ SKILLS_DIR = ROOT / "skills"
 HARD_LINE_CAP = 350
 SOFT_LINE_TARGET = 220
 MIN_DESCRIPTION_CHARS = 40
+MAX_DESCRIPTION_CHARS = 1024  # agentskills.io spec; most tools skip longer skills
+MAX_NAME_CHARS = 64
+NAME_RE = re.compile(r"^[a-z0-9]+(-[a-z0-9]+)*$")
 CREDIT_MARKER = "Insightist"
 
 # Claude-specific tool names — never portable to Codex/Gemini CLI, hard error.
@@ -108,6 +111,16 @@ def main() -> int:
             elif name != skill_dir.name:
                 errors.append(
                     f"{prefix} name in frontmatter ('{name}') != folder name ('{skill_dir.name}')"
+                )
+
+            if name and (len(name) > MAX_NAME_CHARS or not NAME_RE.match(name)):
+                errors.append(
+                    f"{prefix} name must be lowercase letters/digits/single hyphens, <= {MAX_NAME_CHARS} chars"
+                )
+
+            if len(description) > MAX_DESCRIPTION_CHARS:
+                errors.append(
+                    f"{prefix} description is {len(description)} chars; the Agent Skills spec allows {MAX_DESCRIPTION_CHARS}"
                 )
 
             if not description:

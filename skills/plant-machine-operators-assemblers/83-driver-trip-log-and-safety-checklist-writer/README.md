@@ -47,7 +47,7 @@
 - **บันทึกเฉพาะสิ่งที่สังเกตหรือวัดได้จริง** ไม่แต่งเติมรายละเอียด และแยกข้อเท็จจริงออกจากการคาดเดาสาเหตุ
 - **ไม่กำหนดข้อกฎหมายจราจร มาตรฐานความปลอดภัยยานพาหนะ หรือสเปกรถขึ้นเอง** ต้องตรวจสอบกับกฎระเบียบของหน่วยงาน กรมการขนส่งทางบก หรือคู่มือผู้ผลิตรถ
 - Pre-trip checklist ครอบคลุมเฉพาะจุดที่ผู้ขับตรวจเองได้ ไม่ใช่รายการที่ต้องใช้อู่หรือเครื่องมือพิเศษ
-- ISCO-08 ยังไม่มีรหัสเฉพาะสำหรับไรเดอร์แพลตฟอร์ม จึงนับรวมไว้ในกลุ่ม 83 นี้โดยอนุโลม
+- ไรเดอร์ส่งของอยู่ในกลุ่ม 83 ตาม ISCO-08 อยู่แล้ว (8321 Motorcycle Drivers) แต่มาตรฐานนี้ไม่แยกว่าเป็นงานผ่านแพลตฟอร์มหรือไม่
 
 ---
 
@@ -88,7 +88,7 @@ other parties, visible damage and who has been notified.
 - **Records only what was actually observed or measured**, adds no invented detail, and keeps facts separate from guesses about causes
 - **Does not make up traffic laws, vehicle safety standards or vehicle specifications**; check with your organisation's rules, the Department of Land Transport or the manufacturer's manual
 - The pre-trip checklist covers only what drivers can check themselves, not items needing a garage or special tools
-- ISCO-08 has no dedicated code for platform delivery riders, so they are grouped under sub-major group 83 by convention
+- Delivery riders already belong to group 83 under ISCO-08 (8321 Motorcycle Drivers), but the standard does not distinguish platform (gig) work from other employment
 
 ---
 

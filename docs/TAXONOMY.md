@@ -40,7 +40,8 @@ ISCO-08 ซ้อนกัน 4 ระดับ: **หมวดใหญ่ (10)
 | 7 | ช่างฝีมือและผู้ปฏิบัติงานที่เกี่ยวข้อง · Craft and Related Trades Workers | `skills/craft-related-trades-workers/` | 5 | 4,010,828 | 10.06% |
 | 8 | ผู้ควบคุมเครื่องจักรและผู้ประกอบชิ้นงาน · Plant and Machine Operators, and Assemblers | `skills/plant-machine-operators-assemblers/` | 3 | 4,375,624 | 10.98% |
 | 9 | ผู้ประกอบอาชีพงานพื้นฐาน · Elementary Occupations | `skills/elementary-occupations/` | 6 | 4,697,589 | 11.79% |
-| 0 | ทหาร · Armed Forces Occupations | `skills/armed-forces-occupations/` | 3 | มีครบ แต่ไม่แยกในสถิติ สสช. | — |
+| 0 | ทหาร · Armed Forces Occupations | `skills/armed-forces-occupations/` | 3 | สสช. ไม่รายงานแยกเป็นหมวด | — |
+| — | คนงานซึ่งมิได้จำแนกไว้ในหมวดอื่น (ตาม สสช.) | — | — | 128,524 | 0.32% |
 | — | รวม | | **43** | 39,852,121 | 100% |
 
 หมวด 6 (เกษตร/ป่าไม้/ประมง) ใหญ่ที่สุดในไทยที่ 27.40% ตามด้วยหมวด 5 (บริการ/ขาย) 21.35% — สองหมวดนี้
@@ -74,7 +75,7 @@ ISCO-08 ซ้อนกัน 4 ระดับ: **หมวดใหญ่ (10)
 **4 · Clerical Support Workers** — `41-office-correspondence-and-data-entry-assistant`
 (เลขานุการ, พนักงานคีย์ข้อมูล) · `42-customer-service-call-script-and-response-writer`
 (พนักงานคอลเซ็นเตอร์, พนักงานเคาน์เตอร์ธนาคาร) · `43-inventory-and-accounting-clerk-report-builder`
-(เสมียนบัญชี, พนักงานคลังสินค้า) · `44-mailroom-and-records-management-assistant` (พนักงานไปรษณีย์,
+(เสมียนบัญชี, พนักงานคลังสินค้า) · `44-mailroom-and-records-management-assistant` (พนักงานคัดแยก/นำจ่ายไปรษณีย์,
 เสมียนแฟ้มเอกสาร)
 
 **5 · Service and Sales Workers** — `51-hospitality-personal-service-standard-writer`
@@ -101,7 +102,7 @@ ISCO-08 ซ้อนกัน 4 ระดับ: **หมวดใหญ่ (10)
 พนักงานทำความสะอาด) · `92-farm-labour-daily-task-assignment-writer` (คนงานรับจ้างเกษตร) ·
 `93-labour-crew-daily-safety-briefing-writer` (กรรมกรก่อสร้าง, คนงานโรงงาน) ·
 `94-kitchen-prep-and-food-safety-checklist-writer` (ผู้ช่วยในครัว) · `95-street-vendor-daily-sales-log-writer`
-(คนขายของริมถนน) · `96-waste-collection-route-and-log-writer` (พนักงานเก็บขยะ, ซาเล้ง)
+(คนขายของริมถนนที่ไม่ใช่อาหาร — ถ้าขายอาหารข้างทาง ISCO-08 จัดไว้ที่ 5212 ในหมวด 52) · `96-waste-collection-route-and-log-writer` (พนักงานเก็บขยะ, ซาเล้ง)
 
 **0 · Armed Forces Occupations** — `01-military-officer-operations-briefing-writer` (นายทหารสัญญาบัตร) ·
 `02-nco-unit-training-schedule-writer` (นายสิบ, จ่า) · `03-enlisted-personnel-daily-duty-roster-writer`
@@ -127,9 +128,10 @@ ISCO-08 ซ้อนกัน 4 ระดับ: **หมวดใหญ่ (10)
    223 แพทย์แผนโบราณ ฯลฯ — ทำ skill เฉพาะอาชีพย่อยลงไปอีกสำหรับหมวดที่มีคนทำงานเยอะ/มีความต้องการเฉพาะสูง
 2. **หน่วยอาชีพ (Unit groups) — 436 หน่วย** คือระดับละเอียดที่สุดของ ISCO-08 (เช่น "นักกายภาพบำบัด"
    แยกจาก "แพทย์" ชัดเจน) เหมาะกับการทำ skill เฉพาะทางสุดๆ ในเฟสยาว
-3. **อาชีพยุคใหม่ที่ ISCO-08 ยังไม่มีรหัสแยก** เช่น Data Scientist, ML Engineer, Prompt Engineer,
-   ไรเดอร์ส่งของแพลตฟอร์ม (gig economy) — ตอนนี้ถูกจัดรวมในหมวดใกล้เคียงที่สุด (เช่น 25 ICT, 83 Drivers)
-   ฉบับปรับปรุงของ ISCO ที่ ILO เตรียมเสนอในปี 2571 (2028) น่าจะแก้จุดนี้
+3. **อาชีพยุคใหม่ที่ ISCO-08 ยังไม่มีรหัสแยก** เช่น Data Scientist, ML Engineer, Prompt Engineer —
+   ตอนนี้ถูกจัดรวมในหมวดใกล้เคียงที่สุด (เช่น 25 ICT) ส่วนไรเดอร์ส่งของมีรหัสอยู่แล้วคือ 8321 Motorcycle Drivers
+   (ISCO-08 ระบุ "dispatch rider" ไว้ในหน่วยนี้) แต่ ISCO จัดตามลักษณะงาน จึงไม่แยกว่าเป็นงานผ่านแพลตฟอร์ม (gig) หรือไม่
+   ฉบับปรับปรุงของ ISCO ที่ ILO มีกำหนดนำเสนอในที่ประชุม ICLS ครั้งที่ 22 ปี 2571 (2028)
 
 ## วิธีขยายต่อ (สำหรับทีมหรือ contributor ใหม่)
 
@@ -147,10 +149,10 @@ ISCO-08 ซ้อนกัน 4 ระดับ: **หมวดใหญ่ (10)
 1. International Labour Organization (ILO) — [The International Standard Classification of Occupations
    (ISCO-08)](https://ilostat.ilo.org/methods/concepts-and-definitions/classification-occupation/) —
    โครงสร้าง 10/43/130/436 และระดับทักษะรายหมวดใหญ่
-2. สำนักงานสถิติแห่งชาติ — โครงการสำรวจภาวะการทำงานของประชากร ไตรมาส 3 พ.ศ. 2568 — ผู้มีงานทำ 39,852,121 คน
-   จำแนกตามอาชีพ
+2. สำนักงานสถิติแห่งชาติ — [ตารางสถิติ โครงการสำรวจภาวะการทำงานของประชากร ไตรมาส 3 พ.ศ. 2568](https://www.nso.go.th/nsoweb/storage/survey_detail/2025/20251030091822_77870.pdf)
+   (ตาราง 3) — ผู้มีงานทำ 39,852,121 คน จำแนกตามอาชีพ 9 หมวด + คนงานซึ่งมิได้จำแนกไว้ในหมวดอื่น 128,524 คน
 3. กรมการจัดหางาน — การจัดประเภทมาตรฐานอาชีพไทย (TSCO) ฉบับปี 2544 — อิง ISCO-88 หนึ่งรุ่นก่อนหน้า
-4. UN Statistics Division — Progress of work on the ISCO-08 revision (2024) — ไทม์ไลน์เสนอฉบับใหม่ปี 2571
+4. ILO Department of Statistics — [Progress of work on the ISCO-08 revision](https://unstats.un.org/unsd/classifications/Meetings/UNCEISC2024_2nd/Session_3_Progress%20of%20work%20ISCO_08.pdf) (นำเสนอในที่ประชุม UN Expert Group on International Statistical Classifications, ต.ค. 2024) — ไทม์ไลน์เสนอฉบับใหม่ที่ ICLS ครั้งที่ 22 ปี 2571 (2028)
 
 ข้อมูลสถิติและโครงสร้างหมวดในเอกสารนี้อ้างอิงจากรายงาน "ISCO-08 ครบทั้ง 43 หมวดย่อย พร้อมตัวอย่างอาชีพจริง
 และการนับในบริบทไทย" (จัดทำ 13 กันยายน 2569) ซึ่งตรวจสอบยอดรวมผู้มีงานทำ 39,852,121 คน ตรงกับยอดรวมของ สสช.

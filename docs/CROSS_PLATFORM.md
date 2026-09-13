@@ -13,6 +13,7 @@
   - **OpenAI Codex** สแกนหาจาก `.agents/skills` (ใน repo, `$HOME/.agents/skills`, `/etc/codex/skills`) — ต้องการแค่ `name` + `description` ใน frontmatter เท่านั้น ส่วน `agents/openai.yaml` เป็นแค่ตัวเสริม metadata สำหรับ UI ไม่ใช่ของบังคับ
   - **Gemini CLI** สแกน `~/.gemini/skills/` หรือ `~/.agents/skills/` (user) และ `.gemini/skills/` หรือ `.agents/skills/` (workspace) — ไม่ต้องมี manifest เลยสำหรับ skill ธรรมดา ส่วน `gemini-extension.json` ใช้เฉพาะตอนทำ "extension" เต็มรูปแบบที่ผูก MCP server เท่านั้น
 - Codex กับ Gemini CLI ใช้ path convention เดียวกันคือ `.agents/skills` ทำให้ก็อปโฟลเดอร์เดียวไปวางได้ทั้งสองฝั่ง
+- ⚠️ Gemini CLI (และเครื่องมืออีกหลายตัว เช่น OpenHands) มองหา skill แค่ **ชั้นเดียว** (`.agents/skills/<skill>/SKILL.md`) ส่วนคลังนี้เก็บแยกหมวด 2 ชั้น จึงควรก๊อปด้วย `scripts/install.py` หรือ `npx skills add` ไม่ใช่วางทั้ง repo
 
 **สรุป:** ไฟล์ `SKILL.md` ไฟล์เดียวที่เขียนถูกฟอร์แมต ใช้ได้ทั้ง 3 แพลตฟอร์มโดยไม่ต้องสร้างไฟล์แยกต่างหาก — ไม่จำเป็นต้องมี "เวอร์ชัน Claude" กับ "เวอร์ชัน Gemini" คนละไฟล์
 
@@ -44,9 +45,9 @@ Codex กับ Gemini CLI ไม่มี tool ที่ชื่อพวก�
 
 ไฟล์เสริมเฉพาะแพลตฟอร์มไม่ใช่ปัญหา ตราบใดที่ `SKILL.md` หลักยังพอร์ตได้ — แพลตฟอร์มอื่นจะมองข้ามไฟล์ที่ไม่รู้จักไปเฉย ๆ ตัวอย่างเช่น:
 
-- `agents/openai.yaml` — metadata เสริมสำหรับ Codex UI (optional)
-- `gemini-extension.json` — ใช้เมื่ออยาก bundle เป็น Gemini extension เต็มรูปแบบ (optional)
-- โฟลเดอร์ `adapters/` แยกต่างหากสำหรับ config เฉพาะแพลตฟอร์ม — แนวทางนี้เจอจริงใน repo อ้างอิง [`theeranon/JamesSkills`](https://github.com/theeranon/JamesSkills) ที่มีโฟลเดอร์ `adapters/` เก็บ "Vendor-specific metadata for different platforms" แยกออกจากตัว skill หลักไว้ชัดเจน — เป็นแนวทางที่ยืนยันว่าการแยกของเฉพาะแพลตฟอร์มออกจาก body หลักเป็นวิธีที่ใช้ได้จริง
+- `agents/openai.yaml` — ไฟล์เสริมของ Codex (optional) ใช้กำหนดชื่อ/ไอคอนที่แสดงใน UI, นโยบายการเรียกใช้ (`allow_implicit_invocation`) และ dependency เช่น MCP ([เอกสาร](https://learn.chatgpt.com/docs/build-skills))
+- `gemini-extension.json` — ใช้เมื่ออยาก bundle เป็น Gemini extension เต็มรูปแบบ ซึ่งรวม skill, คำสั่ง, hook, theme, context หรือ MCP server ไว้ด้วยกันได้ (optional — skill ธรรมดาไม่ต้องใช้)
+- โฟลเดอร์ `adapters/` แยกต่างหากสำหรับไฟล์เฉพาะแพลตฟอร์ม — ตัวอย่างแนวคิดนี้อยู่ใน repo [`theeranon/JamesSkills`](https://github.com/theeranon/JamesSkills) ซึ่งกันโฟลเดอร์ `adapters/` ไว้ "สำหรับ manifest ที่ gen ขึ้นหรือไฟล์เฉพาะ vendor และห้ามซ้ำกับเนื้อหาคำสั่งของ skill" (ตอนนี้ยังมีแค่ README อธิบายกติกา ยังไม่มีไฟล์ adapter จริง)
 
 กติกาของคลังนี้: **ถ้าจะเพิ่มไฟล์เสริมเฉพาะแพลตฟอร์ม ให้แยกเป็นไฟล์/โฟลเดอร์ต่างหาก อย่าฝังไว้ใน `SKILL.md` หลัก**
 

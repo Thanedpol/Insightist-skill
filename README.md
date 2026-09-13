@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="assets/insightist-logo.png" alt="Insightist™" width="360">
+</p>
+
 # 🧭 Insightist Skills Library
 
 **คลัง Skills ที่คุยกับ Claude, Codex, Gemini แล้วมันเข้าใจงานคุณจริง ๆ**

@@ -63,6 +63,14 @@ python3 scripts/validate.py
 
 ก่อนส่ง PR skill ใหม่ ให้รันเช็คนี้ผ่านก่อนเสมอ (ดูขั้นตอนเต็มใน [`README.md`](../README.md) หัวข้อ "อยากช่วยเพิ่ม Skill ใหม่?")
 
+## 5. เข้ากันได้กับเครื่องมืออื่นอีกกี่ตัว?
+
+นอกจาก Claude, Codex, Gemini CLI แล้ว ยังมีเครื่องมือ AI coding agent อีกจำนวนมากที่อ่านโครงสร้าง
+`SKILL.md` แบบเดียวกันได้ — ดูผลตรวจสอบละเอียดอีก 44 เครื่องมือ (ChatGPT/Codex, GitHub Copilot, VS Code,
+Cursor, Junie, Kiro, Goose, Amp, OpenHands ฯลฯ) พร้อม path ที่แต่ละตัวอ่านได้ที่
+[`docs/TOOL_COMPATIBILITY.md`](TOOL_COMPATIBILITY.md) — สรุปสั้นๆ คือหลายเครื่องมือบรรจบกันที่โฟลเดอร์
+`.agents/skills/<skill-name>/SKILL.md` ทำให้วาง skill ไว้ตรงนั้นที่เดียว ใช้ได้กับเครื่องมือส่วนใหญ่เลย
+
 ---
 
 *ส่วนหนึ่งของ [Insightist™ Skills Library](https://github.com/Thanedpol/Insightist-skill)*

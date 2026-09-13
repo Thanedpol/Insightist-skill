@@ -76,7 +76,11 @@ flowchart TB
 
 **Gemini CLI** — อ่าน `SKILL.md` ได้เลยเพราะเป็นมาตรฐานเดียวกัน แค่ก็อปโฟลเดอร์ไปวางใน skills directory ของ Gemini
 
+**เครื่องมืออื่น ๆ (Cursor, GitHub Copilot, VS Code, Kiro, Goose, Amp, JetBrains Junie และอีกกว่า 20 ตัว)** — ก็อปโฟลเดอร์ skill ทั้งก้อนไปวางที่ `.agents/skills/<skill-name>/` ที่ root ของโปรเจกต์ ใช้ได้ทันทีเพราะ path นี้กลายเป็นมาตรฐานพฤตินัยที่หลายเครื่องมือบรรจบกันแล้ว (ดูรายละเอียดทีละตัวที่ [`docs/TOOL_COMPATIBILITY.md`](docs/TOOL_COMPATIBILITY.md))
+
 **ขี้เกียจติดตั้ง?** เปิดไฟล์ `SKILL.md` ที่ต้องการ copy ทั้งไฟล์ไปวางเป็น custom instruction ได้เลย ทุก skill เขียนให้ self-contained อยู่แล้ว ไม่ต้องพึ่งไฟล์อื่น
+
+**ใช้เครื่องมืออื่นนอกจากนี้?** ตรวจสอบมาแล้วอีก 44 เครื่องมือ (Cursor, GitHub Copilot, VS Code, Kiro, Goose, Amp, JetBrains Junie ฯลฯ) ว่าตัวไหนอ่าน `SKILL.md` ได้ตรงๆ ตัวไหนต้องแปลงไฟล์ก่อน — ดูตารางเต็มที่ [`docs/TOOL_COMPATIBILITY.md`](docs/TOOL_COMPATIBILITY.md)
 
 ## โครงสร้างในนี้มีอะไรบ้าง
 
@@ -85,7 +89,9 @@ flowchart TB
 ├── LICENSE                      # MIT — เอาไปใช้ ต่อยอด แจกต่อได้เลย
 ├── catalog.json                 # index รวมทุก skill (gen อัตโนมัติ)
 ├── .claude-plugin/marketplace.json  # ให้ /plugin marketplace add ได้
-├── docs/TAXONOMY.md             # แผนที่หมวด/อาชีพทั้งหมด รวมที่ยังไม่ได้ทำ
+├── docs/TAXONOMY.md             # แผนที่หมวด/อาชีพทั้งหมดตาม ISCO-08 (10 หมวดใหญ่ / 43 หมวดย่อย)
+├── docs/CROSS_PLATFORM.md       # กติกาเขียน SKILL.md ให้ข้ามแพลตฟอร์มได้ (Claude/Codex/Gemini)
+├── docs/TOOL_COMPATIBILITY.md   # ผลตรวจสอบความเข้ากันได้กับอีก 44 เครื่องมือ AI agent
 ├── skills/<category>/<skill-name>/SKILL.md
 ├── dist/<skill-name>.zip        # แพ็กเกจติดตั้งพร้อมใช้ต่อ 1 skill
 └── scripts/

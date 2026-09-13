@@ -22,14 +22,16 @@ MARKETPLACE_PATH = ROOT / ".claude-plugin" / "marketplace.json"
 FRONTMATTER_RE = re.compile(r"^---\s*\n(.*?)\n---\s*\n", re.DOTALL)
 
 CATEGORY_LABELS = {
-    "business-strategy": "กลยุทธ์ / บริหารธุรกิจ",
-    "finance-accounting": "การเงิน / บัญชี",
-    "marketing-sales": "การตลาด / งานขาย",
-    "hr-people-ops": "งานบุคคล / HR",
-    "legal-compliance": "กฎหมาย / การปฏิบัติตามกฎระเบียบ",
-    "technology-data": "เทคโนโลยี / ข้อมูล",
-    "operations-supply-chain": "ปฏิบัติการ / โลจิสติกส์",
-    "education-training": "การศึกษา / ฝึกอบรม",
+    "managers": "1 · ผู้จัดการ (Managers)",
+    "professionals": "2 · ผู้ประกอบวิชาชีพด้านต่างๆ (Professionals)",
+    "technicians-associate-professionals": "3 · เจ้าหน้าที่เทคนิคและผู้ประกอบวิชาชีพที่เกี่ยวข้อง (Technicians and Associate Professionals)",
+    "clerical-support-workers": "4 · เสมียน / งานธุรการสนับสนุน (Clerical Support Workers)",
+    "service-sales-workers": "5 · พนักงานบริการและผู้จำหน่ายสินค้า (Service and Sales Workers)",
+    "skilled-agricultural-forestry-fishery-workers": "6 · ผู้ปฏิบัติงานที่มีฝีมือด้านการเกษตร ป่าไม้ และประมง (Skilled Agricultural, Forestry and Fishery Workers)",
+    "craft-related-trades-workers": "7 · ช่างฝีมือและผู้ปฏิบัติงานที่เกี่ยวข้อง (Craft and Related Trades Workers)",
+    "plant-machine-operators-assemblers": "8 · ผู้ควบคุมเครื่องจักรโรงงานและผู้ประกอบชิ้นงาน (Plant and Machine Operators, and Assemblers)",
+    "elementary-occupations": "9 · ผู้ประกอบอาชีพงานพื้นฐาน (Elementary Occupations)",
+    "armed-forces-occupations": "0 · ทหาร (Armed Forces Occupations)",
 }
 
 

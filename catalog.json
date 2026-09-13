@@ -1,0 +1,224 @@
+{
+  "name": "Insightist Skills Library",
+  "credit": "Insightist™",
+  "source": "https://github.com/Thanedpol/Insightist-skill",
+  "count": 24,
+  "skills": [
+    {
+      "id": "business-model-canvas-builder",
+      "name": "business-model-canvas-builder",
+      "description": "ช่วยสร้าง Business Model Canvas (BMC) ครบทั้ง 9 ช่องจากไอเดียธุรกิจของผู้ใช้ พร้อมคำถามนำทางเจาะลึกแต่ละช่อง และตรวจสอบความสอดคล้องข้ามช่อง (เช่น Value Proposition ต้องตอบโจทย์ Customer Segments จริง, Revenue Streams ต้องสัมพันธ์กับ Cost Structure) ใช้ skill นี้ทุกครั้งที่ผู้ใช้พูดถึง \"ทำ Business Model Canvas\", \"ทำ BMC\", \"ออกแบบโมเดลธุรกิจ\", \"canvas ธุรกิจ\", \"ช่วยคิดโมเดลธุรกิจ\", \"อยากเริ่มธุรกิจใหม่ ช่วยวางโครงให้หน่อย\", \"business model canvas\", \"startup canvas\", \"lean canvas\" หรือมีไอเดียธุรกิจแล้วต้องการจัดระเบียบให้เป็นภาพรวมทั้งระบบ แม้จะไม่ได้เอ่ยคำว่า \"canvas\" ตรงๆ ก็ตาม",
+      "category": "business-strategy",
+      "category_label": "กลยุทธ์ / บริหารธุรกิจ",
+      "path": "skills/business-strategy/business-model-canvas-builder/SKILL.md",
+      "zip": "dist/business-model-canvas-builder.zip"
+    },
+    {
+      "id": "okr-goal-setter",
+      "name": "okr-goal-setter",
+      "description": "ช่วยแปลงเป้าหมายธุรกิจที่ยังกว้างหรือคลุมเครือ ให้กลายเป็น OKR (Objectives + Key Results) ที่วัดผลได้จริง พร้อมตรวจสอบว่า Key Result แต่ละตัวเข้าเกณฑ์ SMART หรือไม่ ใช้ skill นี้ทุกครั้งที่ผู้ใช้พูดถึง \"ทำ OKR\", \"ตั้งเป้าหมายบริษัท\", \"วาง OKR ทีม\", \"goal setting\", \"objectives and key results\", \"ตั้ง KPI\", \"อยากตั้งเป้าไตรมาสนี้\", \"แปลงเป้าหมายเป็นตัวชี้วัด\", \"set goals\", \"quarterly goals\", \"OKR แต่ละแผนก\" หรือกำลังพยายามทำให้เป้าหมายที่พูดลอยๆ กลายเป็นสิ่งที่วัดผลและติดตามได้ แม้จะไม่ได้เอ่ยคำว่า OKR ตรงๆ ก็ตาม",
+      "category": "business-strategy",
+      "category_label": "กลยุทธ์ / บริหารธุรกิจ",
+      "path": "skills/business-strategy/okr-goal-setter/SKILL.md",
+      "zip": "dist/okr-goal-setter.zip"
+    },
+    {
+      "id": "swot-competitive-analysis",
+      "name": "swot-competitive-analysis",
+      "description": "ช่วยทำ SWOT Analysis (Strengths, Weaknesses, Opportunities, Threats) ควบคู่กับการวิเคราะห์คู่แข่งแบบตารางเปรียบเทียบ (competitive matrix) โดยใช้ข้อมูลที่ผู้ใช้ให้มา หรือค้นคว้าข้อมูลเพิ่มเติมเมื่อข้อมูลไม่ครบ ใช้ skill นี้ทุกครั้งที่ผู้ใช้พูดถึง \"ทำ SWOT\", \"วิเคราะห์จุดแข็งจุดอ่อน\", \"วิเคราะห์คู่แข่ง\", \"competitive analysis\", \"competitor analysis\", \"SWOT analysis\", \"เทียบกับคู่แข่ง\", \"ตลาดนี้มีใครทำอยู่บ้าง\", \"เราสู้คู่แข่งได้ไหม\", \"ธุรกิจเราอยู่ตรงไหนของตลาด\" หรือกำลังประเมินสถานะของธุรกิจ/ผลิตภัณฑ์เทียบกับคู่แข่งในตลาด แม้จะไม่ได้เอ่ยคำว่า SWOT ตรงๆ ก็ตาม",
+      "category": "business-strategy",
+      "category_label": "กลยุทธ์ / บริหารธุรกิจ",
+      "path": "skills/business-strategy/swot-competitive-analysis/SKILL.md",
+      "zip": "dist/swot-competitive-analysis.zip"
+    },
+    {
+      "id": "lesson-plan-builder",
+      "name": "lesson-plan-builder",
+      "description": "สร้างแผนการสอน (lesson plan) แบบครบชุดจากหัวข้อวิชาและกลุ่มผู้เรียนที่ผู้ใช้กำหนด พร้อม learning objective ที่วัดผลได้ กิจกรรมการเรียนรู้ และวิธีประเมินผล ใช้ทันทีเมื่อผู้ใช้พูดว่า \"ทำแผนการสอน\", \"สร้าง lesson plan\", \"ออกแบบบทเรียน\", \"วางแผนการสอนเรื่อง...\", \"ทำ course outline\", \"เขียนแผนสอน\", \"lesson plan builder\", \"design a lesson\", \"create a lesson plan\", \"teaching plan\", \"แผนสอนให้กลุ่ม...\", หรือระบุหัวข้อ+กลุ่มเป้าหมายแล้วขอให้ช่วยจัดการสอน แม้จะไม่ได้พูดคำว่า \"lesson plan\" ตรงๆ ก็ตาม",
+      "category": "education-training",
+      "category_label": "การศึกษา / ฝึกอบรม",
+      "path": "skills/education-training/lesson-plan-builder/SKILL.md",
+      "zip": "dist/lesson-plan-builder.zip"
+    },
+    {
+      "id": "quiz-generator",
+      "name": "quiz-generator",
+      "description": "สร้างแบบทดสอบ/ควิซ (quiz) จากเนื้อหาที่ผู้ใช้ให้มา ไม่ว่าจะเป็นบทความ เอกสาร สไลด์ หรือหัวข้อวิชา พร้อมเฉลยและคำอธิบายเหตุผลของแต่ละข้อ ใช้ทันทีเมื่อผู้ใช้พูดว่า \"สร้างแบบทดสอบ\", \"ทำ quiz\", \"ออกข้อสอบ\", \"ทำโจทย์ทดสอบ\", \"quiz generator\", \"create a quiz\", \"make a test\", \"ทำแบบฝึกหัดจากเนื้อหานี้\", \"generate questions from this\", \"ช่วยออกคำถามจากบทความนี้หน่อย\" หรือแปะเนื้อหา/เอกสารมาแล้วขอให้ช่วยทำแบบทดสอบวัดความเข้าใจ แม้ไม่ได้พูดคำว่า \"quiz\" ตรงๆ ก็ตาม",
+      "category": "education-training",
+      "category_label": "การศึกษา / ฝึกอบรม",
+      "path": "skills/education-training/quiz-generator/SKILL.md",
+      "zip": "dist/quiz-generator.zip"
+    },
+    {
+      "id": "training-needs-assessment",
+      "name": "training-needs-assessment",
+      "description": "วิเคราะห์และจัดทำ Training Needs Assessment (TNA) ขององค์กรหรือทีม โดยระบุ skill gap ระหว่างความสามารถปัจจุบันกับที่ควรมี แล้วแปลงเป็นข้อเสนอแนะหลักสูตรฝึกอบรมพร้อมลำดับความสำคัญ ใช้ทันทีเมื่อผู้ใช้พูดว่า \"ทำ TNA\", \"training needs assessment\", \"ประเมินความต้องการฝึกอบรม\", \"หา skill gap\", \"วิเคราะห์ช่องว่างทักษะ\", \"ทีมนี้ควรอบรมอะไร\", \"องค์กรขาดทักษะอะไร\", \"needs analysis\", \"skill gap analysis\", \"วางแผนอบรมพนักงาน\", หรือให้ข้อมูลผลประเมิน/ปัญหาการทำงานของทีมแล้วขอคำแนะนำเรื่องการพัฒนาบุคลากร แม้ไม่ได้พูดคำว่า \"TNA\" ตรงๆ ก็ตาม",
+      "category": "education-training",
+      "category_label": "การศึกษา / ฝึกอบรม",
+      "path": "skills/education-training/training-needs-assessment/SKILL.md",
+      "zip": "dist/training-needs-assessment.zip"
+    },
+    {
+      "id": "budget-variance-report",
+      "name": "budget-variance-report",
+      "description": "เปรียบเทียบงบประมาณ (budget) กับยอดใช้จ่ายหรือรายได้จริง (actual) เพื่อหาส่วนต่าง (variance) ทั้งเชิงจำนวนเงินและเปอร์เซ็นต์ วิเคราะห์สาเหตุที่เบี่ยงเบนไปจากแผน พร้อมข้อเสนอแนะเชิงบริหารที่นำไปปฏิบัติได้จริง ใช้ skill นี้เมื่อผู้ใช้พูดว่า \"เทียบงบกับยอดจริง\", \"variance report\", \"budget vs actual\", \"งบเกินไหม\", \"ทำไมค่าใช้จ่ายเกินงบ\", \"วิเคราะห์ผลต่างงบประมาณ\", \"สรุปงบประมาณประจำเดือน/ไตรมาส\", \"รายงานเปรียบเทียบงบ\" หรืออัปโหลดไฟล์ที่มีทั้งคอลัมน์งบประมาณและยอดจริงแล้วขอวิเคราะห์ แม้ไม่ได้พูดคำว่า \"variance\" ตรงๆ ก็ให้ trigger เสมอเมื่อ context คือการเทียบแผนกับผลจริงทางการเงิน",
+      "category": "finance-accounting",
+      "category_label": "การเงิน / บัญชี",
+      "path": "skills/finance-accounting/budget-variance-report/SKILL.md",
+      "zip": "dist/budget-variance-report.zip"
+    },
+    {
+      "id": "financial-ratio-analyzer",
+      "name": "financial-ratio-analyzer",
+      "description": "วิเคราะห์งบการเงิน (งบกำไรขาดทุน งบดุล และงบกระแสเงินสดถ้ามี) ด้วยอัตราส่วนทางการเงินหลัก 4 กลุ่ม — สภาพคล่อง (liquidity) ความสามารถทำกำไร (profitability) โครงสร้างหนี้ (leverage) และประสิทธิภาพการดำเนินงาน (efficiency) — แล้วแปลผลเป็นภาษาที่คนไม่ใช่นักบัญชีเข้าใจได้ พร้อมเทียบแนวโน้ม (trend) ย้อนหลังถ้ามีข้อมูลหลายปีหรือหลายไตรมาส ใช้ skill นี้เมื่อผู้ใช้พูดว่า \"วิเคราะห์งบการเงิน\", \"อ่านงบดุล/งบกำไรขาดทุนให้หน่อย\", \"คำนวณอัตราส่วนทางการเงิน\", \"financial ratio analysis\", \"analyze financial statement\", \"บริษัทนี้การเงินแข็งแรงไหม\", \"สภาพคล่องเป็นยังไง\", \"ROE ROA เท่าไหร่\", \"หนี้สินเยอะไปไหม\" หรืออัปโหลดไฟล์งบการเงิน/Excel ตัวเลขบัญชีแล้วขอความเห็นเชิงการเงิน แม้ไม่ได้ใช้คำว่า \"ratio\" ตรงๆ ก็ให้ trigger เสมอเมื่อ context คือการประเมินสุขภาพการเงินของกิจการจากงบการเงิน",
+      "category": "finance-accounting",
+      "category_label": "การเงิน / บัญชี",
+      "path": "skills/finance-accounting/financial-ratio-analyzer/SKILL.md",
+      "zip": "dist/financial-ratio-analyzer.zip"
+    },
+    {
+      "id": "invoice-expense-tracker",
+      "name": "invoice-expense-tracker",
+      "description": "จัดระเบียบใบแจ้งหนี้ ใบเสร็จ และรายการค่าใช้จ่ายที่กระจัดกระจาย จัดหมวดหมู่ตามประเภทค่าใช้จ่ายมาตรฐาน ตรวจจับรายการผิดปกติหรือรายการซ้ำซ้อน แล้วสรุปเป็นรายงานที่พร้อมส่งต่อให้ฝ่ายบัญชีหรือใช้ยื่นภาษี ใช้ skill นี้เมื่อผู้ใช้พูดว่า \"จัดระเบียบใบเสร็จ\", \"รวมใบแจ้งหนี้\", \"สรุปค่าใช้จ่าย\", \"expense tracker\", \"invoice tracking\", \"เช็คบิลซ้ำไหม\", \"หารายการผิดปกติในค่าใช้จ่าย\", \"เตรียมเอกสารยื่นบัญชี\", \"สรุปรายจ่ายประจำเดือน\" หรืออัปโหลดไฟล์ใบเสร็จ/ใบแจ้งหนี้/รายการธุรกรรมจำนวนมากแล้วขอให้จัดระเบียบหรือสรุป แม้ไม่ได้ใช้คำว่า \"tracker\" ตรงๆ ก็ให้ trigger เสมอเมื่อ context คือการจัดการเอกสารค่าใช้จ่ายจำนวนมากให้เป็นระบบ",
+      "category": "finance-accounting",
+      "category_label": "การเงิน / บัญชี",
+      "path": "skills/finance-accounting/invoice-expense-tracker/SKILL.md",
+      "zip": "dist/invoice-expense-tracker.zip"
+    },
+    {
+      "id": "interview-scorecard-builder",
+      "name": "interview-scorecard-builder",
+      "description": "สร้าง Interview Scorecard และเกณฑ์ให้คะแนนผู้สมัครงาน (Competency-based Scoring Rubric) จากตำแหน่งงานและทักษะ/competency ที่ต้องการประเมิน พร้อมคำถามสัมภาษณ์แนะนำและระดับคะแนนที่ชัดเจน ใช้ skill นี้ทุกครั้งที่ผู้ใช้พูดว่า \"ทำ interview scorecard\", \"สร้างเกณฑ์ให้คะแนนผู้สมัคร\", \"อยากได้แบบประเมินสัมภาษณ์\", \"ช่วยทำ scorecard สำหรับตำแหน่ง...\", \"interview rubric\", \"candidate evaluation form\", \"competency scorecard\", \"ช่วยออกแบบคำถามสัมภาษณ์พร้อมเกณฑ์\", หรือกำลังเตรียมสัมภาษณ์งานแล้วต้องการเครื่องมือให้คะแนนที่เป็นมาตรฐาน ไม่ใช้ความรู้สึกล้วนๆ แม้จะไม่ได้พูดคำว่า \"scorecard\" ตรงๆ ก็ตาม",
+      "category": "hr-people-ops",
+      "category_label": "งานบุคคล / HR",
+      "path": "skills/hr-people-ops/interview-scorecard-builder/SKILL.md",
+      "zip": "dist/interview-scorecard-builder.zip"
+    },
+    {
+      "id": "job-description-writer",
+      "name": "job-description-writer",
+      "description": "เขียน Job Description (JD) มืออาชีพ ครบทุกส่วน จากข้อมูลตำแหน่งงานคร่าวๆ ที่ผู้ใช้ให้มา เช่น หน้าที่ความรับผิดชอบ คุณสมบัติ เงินเดือน และสวัสดิการ แล้วจัดเรียงให้อ่านง่าย น่าสมัคร และพร้อมโพสต์ประกาศงานได้ทันที ใช้ skill นี้ทุกครั้งที่ผู้ใช้พูดว่า \"เขียน JD\", \"ทำ job description\", \"ร่างประกาศรับสมัครงาน\", \"เขียนใบสมัครงานตำแหน่ง...\", \"ช่วยเขียนสเปกตำแหน่งงาน\", \"write a job description\", \"job posting for...\", \"draft JD for [position]\", \"อยากประกาศรับพนักงานตำแหน่ง...\", หรือให้ข้อมูลตำแหน่งงานมาแล้วขอให้ช่วยเรียบเรียงเป็นประกาศงาน แม้จะไม่ได้พูดคำว่า \"JD\" ตรงๆ ก็ตาม",
+      "category": "hr-people-ops",
+      "category_label": "งานบุคคล / HR",
+      "path": "skills/hr-people-ops/job-description-writer/SKILL.md",
+      "zip": "dist/job-description-writer.zip"
+    },
+    {
+      "id": "onboarding-plan-generator",
+      "name": "onboarding-plan-generator",
+      "description": "สร้างแผน Onboarding พนักงานใหม่แบบ 30-60-90 วัน ตามตำแหน่งงานและทีมที่ระบุ ครอบคลุมเป้าหมาย กิจกรรม และตัวชี้วัดความสำเร็จในแต่ละช่วง ใช้ skill นี้ทุกครั้งที่ผู้ใช้พูดว่า \"ทำแผน onboarding\", \"สร้างแผน 30-60-90 วัน\", \"ช่วยวางแผนพนักงานใหม่\", \"onboarding plan for...\", \"30-60-90 day plan\", \"แผนต้อนรับพนักงานใหม่\", \"ช่วยออกแบบ orientation\", \"new hire onboarding\", หรือมีพนักงานใหม่กำลังจะเริ่มงานแล้วต้องการวางแผนช่วงเริ่มต้นให้เป็นระบบ แม้จะไม่ได้พูดคำว่า \"onboarding\" ตรงๆ ก็ตาม",
+      "category": "hr-people-ops",
+      "category_label": "งานบุคคล / HR",
+      "path": "skills/hr-people-ops/onboarding-plan-generator/SKILL.md",
+      "zip": "dist/onboarding-plan-generator.zip"
+    },
+    {
+      "id": "contract-clause-reviewer",
+      "name": "contract-clause-reviewer",
+      "description": "อ่านและวิเคราะห์สัญญา (ภาษาไทย/อังกฤษ) เพื่อชี้จุดที่ควรระวัง เช่น ข้อผูกมัด (obligation), ค่าปรับ (penalty), เงื่อนไขการเลิกสัญญา (termination) และความรับผิด (liability) แล้วสรุปเป็นภาษาที่คนทั่วไปเข้าใจง่าย ใช้ skill นี้ทันทีเมื่อผู้ใช้พูดว่า \"ช่วยดูสัญญาให้หน่อย\" \"รีวิวสัญญานี้\" \"สัญญานี้มีจุดไหนน่ากลัวไหม\" \"review contract\" \"check this contract\" \"contract clause review\" \"สัญญานี้เซ็นได้ไหม\" \"มีข้อไหนเสียเปรียบไหม\" หรืออัปโหลด/แปะไฟล์และข้อความสัญญาแล้วถามความเห็น แม้ไม่ได้เอ่ยคำว่า \"review\" หรือ \"ตรวจสัญญา\" ตรงๆ ก็ตาม",
+      "category": "legal-compliance",
+      "category_label": "กฎหมาย / การปฏิบัติตามกฎระเบียบ",
+      "path": "skills/legal-compliance/contract-clause-reviewer/SKILL.md",
+      "zip": "dist/contract-clause-reviewer.zip"
+    },
+    {
+      "id": "nda-drafting-assistant",
+      "name": "nda-drafting-assistant",
+      "description": "ช่วยร่างสัญญาไม่เปิดเผยข้อมูล (NDA / Non-Disclosure Agreement) ฉบับเบื้องต้น จากข้อมูลคู่สัญญาที่ผู้ใช้ให้มา (ชื่อฝ่าย, ประเภทข้อมูลที่ต้องการคุ้มครอง, ระยะเวลาคุ้มครอง, เป็นแบบฝ่ายเดียวหรือสองฝ่าย) ใช้ skill นี้ทันทีเมื่อผู้ใช้พูดว่า \"ช่วยร่าง NDA ให้หน่อย\" \"อยากได้สัญญาไม่เปิดเผยข้อมูล\" \"ทำ NDA ก่อนคุยงานกับ...\", \"draft an NDA\", \"need a non-disclosure agreement\", \"confidentiality agreement\" หรือกำลังจะคุยข้อมูลลับ/ไอเดียธุรกิจ/ข้อมูลลูกค้ากับคู่ค้า พาร์ทเนอร์ ฟรีแลนซ์ หรือพนักงานใหม่ และต้องการเอกสารป้องกันเบื้องต้นก่อนเริ่มคุย แม้ไม่ได้เอ่ยคำว่า \"NDA\" ตรงๆ ก็ตาม",
+      "category": "legal-compliance",
+      "category_label": "กฎหมาย / การปฏิบัติตามกฎระเบียบ",
+      "path": "skills/legal-compliance/nda-drafting-assistant/SKILL.md",
+      "zip": "dist/nda-drafting-assistant.zip"
+    },
+    {
+      "id": "policy-compliance-checklist",
+      "name": "policy-compliance-checklist",
+      "description": "สร้าง checklist ตรวจสอบว่านโยบายหรือขั้นตอนการทำงานภายในองค์กร (internal policy/SOP) สอดคล้องกับกฎระเบียบที่เกี่ยวข้องหรือไม่ (เช่น PDPA, กฎหมายแรงงาน, กฎระเบียบอุตสาหกรรมเฉพาะทาง) ใช้ skill นี้ทันทีเมื่อผู้ใช้พูดว่า \"ช่วยทำ checklist ตรวจสอบนโยบาย\" \"policy compliance check\" \"นโยบายเราทำตามกฎหมายไหม\" \"ตรวจสอบว่า SOP นี้ผ่านกฎระเบียบหรือเปล่า\" \"compliance checklist\" \"audit นโยบายบริษัท\" หรือกำลังปรับปรุง/เขียนนโยบายภายในและอยากรู้ว่าครบตามกฎระเบียบที่เกี่ยวข้องหรือไม่ แม้ไม่ได้เอ่ยคำว่า \"compliance\" ตรงๆ ก็ตาม",
+      "category": "legal-compliance",
+      "category_label": "กฎหมาย / การปฏิบัติตามกฎระเบียบ",
+      "path": "skills/legal-compliance/policy-compliance-checklist/SKILL.md",
+      "zip": "dist/policy-compliance-checklist.zip"
+    },
+    {
+      "id": "customer-persona-builder",
+      "name": "customer-persona-builder",
+      "description": "สร้าง Customer Persona (ตัวแทนลูกค้ากลุ่มเป้าหมาย) จากข้อมูลลูกค้าจริงหรือข้อมูลตลาดที่ผู้ใช้มีอยู่ พร้อมระบุ pain point, motivation และ decision journey อย่างละเอียด เพื่อใช้วางกลยุทธ์การตลาดและงานขาย ใช้ทุกครั้งที่ผู้ใช้พูดว่า \"สร้าง persona\", \"ทำ customer persona\", \"กลุ่มเป้าหมายเราคือใคร\", \"buyer persona\", \"target audience profile\", \"วิเคราะห์ลูกค้าเรา\", \"ลูกค้าในฝันของเรา\", \"ideal customer profile\", \"ICP\" หรือให้ข้อมูลลูกค้า/ผลสำรวจ/insight ตลาดมาแล้วขอให้ช่วยวิเคราะห์ว่าลูกค้าเป้าหมายเป็นใคร แม้จะไม่ได้เอ่ยคำว่า \"persona\" ตรงๆ ก็ตาม",
+      "category": "marketing-sales",
+      "category_label": "การตลาด / งานขาย",
+      "path": "skills/marketing-sales/customer-persona-builder/SKILL.md",
+      "zip": "dist/customer-persona-builder.zip"
+    },
+    {
+      "id": "sales-proposal-writer",
+      "name": "sales-proposal-writer",
+      "description": "เขียนใบเสนอราคา/ข้อเสนอขายงาน (Sales Proposal / Quotation) แบบมืออาชีพจากข้อมูลลูกค้า โจทย์ปัญหา ขอบเขตงาน และราคาที่ผู้ใช้ให้มา จัดโครงสร้างให้อ่านง่าย น่าเชื่อถือ พร้อมส่งลูกค้าได้ทันที ใช้ทุกครั้งที่ผู้ใช้พูดว่า \"เขียนใบเสนอราคา\", \"ทำ proposal ให้หน่อย\", \"ร่าง quotation\", \"เสนอราคาลูกค้า\", \"sales proposal\", \"write a proposal\", \"quote this job\", \"ทำใบเสนองาน\", \"เตรียมเอกสารเสนอขาย\" หรือให้ข้อมูลลูกค้า+โจทย์+ราคามาแล้วขอให้ช่วยจัดเป็นเอกสารเสนอขาย แม้จะไม่ได้เอ่ยคำว่า \"proposal\" ตรงๆ ก็ตาม",
+      "category": "marketing-sales",
+      "category_label": "การตลาด / งานขาย",
+      "path": "skills/marketing-sales/sales-proposal-writer/SKILL.md",
+      "zip": "dist/sales-proposal-writer.zip"
+    },
+    {
+      "id": "social-content-planner",
+      "name": "social-content-planner",
+      "description": "วางแผน Content Calendar สำหรับ Social Media แบบรายสัปดาห์หรือรายเดือน โดยอ้างอิงจากเป้าหมาย (goal) ทางการตลาดและ Customer Persona ที่กำหนดไว้ จัดสรรหัวข้อ รูปแบบคอนเทนต์ และตารางเวลาโพสต์ให้ครบทุกแพลตฟอร์ม ใช้ทุกครั้งที่ผู้ใช้พูดว่า \"วางแผน content\", \"ทำ content calendar\", \"แพลนโพสต์เดือนนี้\", \"อยากได้ตารางโพสต์\", \"content plan รายสัปดาห์\", \"social media calendar\", \"plan my content\", \"ปฏิทินคอนเทนต์\" หรือขอให้ช่วยจัดตารางโพสต์ Facebook/Instagram/TikTok/LinkedIn/X ล่วงหน้า แม้จะไม่ได้เอ่ยคำว่า \"calendar\" ตรงๆ ก็ตาม",
+      "category": "marketing-sales",
+      "category_label": "การตลาด / งานขาย",
+      "path": "skills/marketing-sales/social-content-planner/SKILL.md",
+      "zip": "dist/social-content-planner.zip"
+    },
+    {
+      "id": "inventory-reorder-planner",
+      "name": "inventory-reorder-planner",
+      "description": "คำนวณจุดสั่งซื้อซ้ำ (Reorder Point) และปริมาณสั่งซื้อที่เหมาะสม (Order Quantity / EOQ) จากข้อมูลยอดขายเฉลี่ยต่อวัน สต็อกคงเหลือ และ lead time ของซัพพลายเออร์ พร้อมคำนวณ safety stock กันสต็อกขาด ใช้ skill นี้ทันทีเมื่อผู้ใช้พูดว่า \"ควรสั่งของตอนไหน\", \"สั่งซื้อซ้ำเท่าไหร่ดี\", \"reorder point\", \"จุดสั่งซื้อ\", \"ของจะหมดเมื่อไหร่\", \"คำนวณสต็อก\", \"safety stock\", \"EOQ\", \"เมื่อไหร่ควรสั่งของเข้า\", \"สต็อกจะพอไหม\", \"วางแผนสั่งซื้อ\", \"inventory planning\" หรือแปะข้อมูลยอดขาย/สต็อก/lead time มาแล้วถามเกี่ยวกับการสั่งซื้อ แม้จะไม่ได้ใช้คำศัพท์ตรงตัวก็ตาม",
+      "category": "operations-supply-chain",
+      "category_label": "ปฏิบัติการ / โลจิสติกส์",
+      "path": "skills/operations-supply-chain/inventory-reorder-planner/SKILL.md",
+      "zip": "dist/inventory-reorder-planner.zip"
+    },
+    {
+      "id": "process-sop-writer",
+      "name": "process-sop-writer",
+      "description": "แปลงขั้นตอนงานที่ผู้ใช้เล่ามาแบบไม่เป็นทางการ (พูดคุย ข้อความสั้นๆ หรือบันทึกเสียงถอดคำ) ให้กลายเป็นเอกสาร SOP (Standard Operating Procedure) ที่มีโครงสร้างชัดเจน ทำตามได้จริง และใช้ฝึกพนักงานใหม่ได้ทันที ใช้ skill นี้เมื่อผู้ใช้พูดว่า \"เขียน SOP ให้หน่อย\", \"ทำคู่มือขั้นตอนงาน\", \"write SOP\", \"standard operating procedure\", \"เขียนขั้นตอนการทำงาน\", \"ทำ work instruction\", \"เอาที่เล่ามาทำเป็นเอกสาร\", \"ทำคู่มือฝึกพนักงานใหม่\", \"จัดระเบียบขั้นตอนนี้หน่อย\" หรือเล่าขั้นตอนงานแบบพูดคุยธรรมดาแล้วขอให้ช่วยจัดเป็นเอกสารทำงาน แม้ไม่ได้พูดคำว่า SOP ตรงๆ ก็ตาม",
+      "category": "operations-supply-chain",
+      "category_label": "ปฏิบัติการ / โลจิสติกส์",
+      "path": "skills/operations-supply-chain/process-sop-writer/SKILL.md",
+      "zip": "dist/process-sop-writer.zip"
+    },
+    {
+      "id": "vendor-comparison-matrix",
+      "name": "vendor-comparison-matrix",
+      "description": "เปรียบเทียบซัพพลายเออร์/vendor หลายรายอย่างเป็นระบบ ตามเกณฑ์สำคัญ เช่น ราคา คุณภาพ เวลาส่งมอบ เงื่อนไขการชำระเงิน และความน่าเชื่อถือ แล้วให้คะแนนถ่วงน้ำหนักพร้อมคำแนะนำว่าควรเลือกรายไหน ใช้ skill นี้เมื่อผู้ใช้พูดว่า \"เปรียบเทียบซัพพลายเออร์\", \"เทียบ vendor\", \"ควรเลือกใครดี\", \"vendor comparison\", \"supplier comparison\", \"เทียบราคาจากหลายเจ้า\", \"เลือกผู้ผลิต/ผู้จำหน่ายรายไหนดี\", \"ทำตารางเทียบผู้ขาย\", \"ประเมินซัพพลายเออร์\" หรือแปะข้อมูลใบเสนอราคา/ข้อเสนอจากผู้ขายหลายรายมาแล้วขอความเห็นว่าควรเลือกใคร แม้ไม่ได้ใช้คำว่า \"เปรียบเทียบ\" ตรงๆ ก็ตาม",
+      "category": "operations-supply-chain",
+      "category_label": "ปฏิบัติการ / โลจิสติกส์",
+      "path": "skills/operations-supply-chain/vendor-comparison-matrix/SKILL.md",
+      "zip": "dist/vendor-comparison-matrix.zip"
+    },
+    {
+      "id": "api-doc-writer",
+      "name": "api-doc-writer",
+      "description": "เขียนเอกสาร API (API documentation) จากโค้ดหรือ spec ที่ผู้ใช้ให้มา ครอบคลุม endpoint, parameters, response schema, error codes และตัวอย่าง request/response ที่ใช้งานได้จริง ใช้ทุกครั้งที่ผู้ใช้พูดว่า \"ช่วยเขียน API doc หน่อย\", \"document this API\", \"เขียนเอกสาร endpoint นี้\", \"สรุป API spec\", \"ทำ API reference\", \"อธิบาย endpoint ให้ทีม frontend\", \"generate API documentation\", หรือแปะโค้ด route/controller/OpenAPI spec มาแล้วขอให้แปลงเป็นเอกสารอ่านง่าย แม้ไม่ได้พูดคำว่า \"documentation\" ตรงๆ ก็ให้ trigger skill นี้เสมอเมื่อบริบทคือการอธิบาย API ให้คนอื่นเข้าใจและเรียกใช้ได้",
+      "category": "technology-data",
+      "category_label": "เทคโนโลยี / ข้อมูล",
+      "path": "skills/technology-data/api-doc-writer/SKILL.md",
+      "zip": "dist/api-doc-writer.zip"
+    },
+    {
+      "id": "code-review-checklist",
+      "name": "code-review-checklist",
+      "description": "ตรวจสอบโค้ด (code review) ตาม checklist มาตรฐาน 4 ด้าน — readability, security, performance, test coverage — แล้วสรุปเป็น review comment ที่สร้างสรรค์ พร้อมระดับความสำคัญและข้อเสนอแนะที่แก้ได้จริง ใช้ทุกครั้งที่ผู้ใช้พูดว่า \"ช่วยรีวิวโค้ดหน่อย\", \"review code\", \"code review\", \"ตรวจโค้ดให้หน่อย\", \"ดูโค้ดนี้มีปัญหาอะไรไหม\", \"โค้ดนี้ปลอดภัยไหม\", \"PR นี้โอเคไหม\", \"ก่อน merge ช่วยเช็คให้หน่อย\", \"check this diff\", \"audit this code\", หรือแปะไฟล์โค้ด/diff/pull request มาแล้วขอความเห็น แม้ไม่ได้พิมพ์คำว่า \"review\" ตรงๆ ก็ให้ trigger skill นี้เสมอเมื่อบริบทคือการตรวจคุณภาพโค้ด",
+      "category": "technology-data",
+      "category_label": "เทคโนโลยี / ข้อมูล",
+      "path": "skills/technology-data/code-review-checklist/SKILL.md",
+      "zip": "dist/code-review-checklist.zip"
+    },
+    {
+      "id": "data-cleaning-playbook",
+      "name": "data-cleaning-playbook",
+      "description": "ทำความสะอาดชุดข้อมูล (data cleaning) แบบเป็นระบบ ครอบคลุม missing values, duplicates, outliers และ inconsistent format พร้อมสรุปว่าทำอะไรไปบ้างและทำไมถึงทำแบบนั้น ใช้ทุกครั้งที่ผู้ใช้พูดว่า \"ช่วยทำความสะอาดข้อมูลหน่อย\", \"clean this data\", \"data cleaning\", \"ข้อมูลมันรก/ไม่ตรงกัน\", \"เช็ค missing value\", \"หา duplicate ให้หน่อย\", \"จัดการ outlier\", \"เตรียมข้อมูลก่อนวิเคราะห์\", \"ทำไมตัวเลขไม่ตรงกัน\", หรืออัปโหลดไฟล์ CSV/Excel ที่ดูไม่เรียบร้อยแล้วขอให้จัดการก่อนนำไปวิเคราะห์ต่อ แม้ไม่ได้พูดคำว่า \"clean\" ตรงๆ ก็ให้ trigger skill นี้เสมอเมื่อบริบทคือการเตรียมข้อมูลดิบให้พร้อมใช้งาน",
+      "category": "technology-data",
+      "category_label": "เทคโนโลยี / ข้อมูล",
+      "path": "skills/technology-data/data-cleaning-playbook/SKILL.md",
+      "zip": "dist/data-cleaning-playbook.zip"
+    }
+  ]
+}

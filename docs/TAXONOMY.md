@@ -1,5 +1,8 @@
 # Taxonomy & Roadmap
 
+> 🗺️ อยากดูแบบลากโหนดเล่น/ขยายหมวดย่อยได้จริง เปิด **[Insightist Skill Map](https://claude.ai/code/artifact/df4a05d9-4ba8-4ae8-8c89-0e2bf51677af)**
+> — มีมุมมองตารางสลับดูได้ในหน้าเดียวกัน
+
 เอกสารนี้อธิบายกรอบการจัดหมวดหมู่ (taxonomy) ของ Insightist Skills Library
 และหมวด/สายอาชีพที่ยังไม่ได้ทำ (roadmap) สำหรับขยายต่อในเฟสถัดไป
 
